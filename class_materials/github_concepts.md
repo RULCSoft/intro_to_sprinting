@@ -1,67 +1,67 @@
-<!-- begin auto-generated title section -->
-# GitHub Concepts
-<!-- end auto-generated section -->
+<!-- comienza la sección de título generado automáticamente -->
+# Conceptos GitHub
+<!-- fin de la sección autogenerada -->
 
 
-## Time-box
+## Duracion
 
-10 Minutes
+10 minutos
 
-## Overview
+## Resumen
 
-GitHub is a powerful platform. There are many features and capabilities available in GitHub. Let's review a handful of them.
+GitHub es una plataforma poderosa. Hay muchas características y capacidades disponibles en GitHub. Repasemos algunos de ellos.
 
 
-## What to do
+## Qué hacer
 
-1. Navigate to **your GitHub** repo for the Codeless Project. **NOTE:** make sure you are looking at **your repo**.
-1. Your repo has a number of tabs across the top: `Code`, `Issues`, `Pull requests`, `Projects`, `Wiki`, `Insights`, etc.
-![Codeless Repo](images/github_codeless_repo.png)
-1. Click on the `Issues` tab. You will find a list of issues.<br><br>
-![Issues tab](images/github_issues.png)
-1. Click on several issues and explore them: see whether they have milestones, what labels they might have, what discussion is occurring relative to that issue, etc.
-1. Click on the `Wiki` tab. This is a great place to capture documentation and planning notes.
+1. Navegue a ** su repo de GitHub ** para el Proyecto sin código. ** NOTA: ** asegúrese de estar viendo ** su repositorio **.
+1. Su repositorio tiene varias pestañas en la parte superior: `Código`,` Problemas`, `Pull requests`,` Proyectos`, `Wiki`,` Insights`, etc.
+! [Repo sin código](images/github_codeless_repo.png)
+1. Haga clic en la pestaña `Issues`. Encontrará una lista de problemas. <br> <br>
+! [Pestaña de problemas](images/github_issues.png)
+1. Haga clic en varios problemas y explorélos: vea si tienen hitos, qué etiquetas podrían tener, qué discusión está ocurriendo en relación con ese problema, etc.
+1. Haga clic en la pestaña `Wiki`. Este es un gran lugar para capturar documentos y notas de planificación.
 
-**NEXT** Navigate to the **upstream GitHub repo** for the Codeless Project. I often do this by clicking the small link under the name of the repo AND opening the link in a new tab so that I have both my **origin GitHub repo** and the **upstream GitHub repo** open at the same time. That link should say something like: `'forked from chalmerlowe/intro_to_sprinting_codeless_project:'` much like this example from `sigsevneo`'s repository.<br>
-![Fork link to original repo](images/fork-repo-link.png)
+** SIGUIENTE ** Navegue hasta ** repositorio de GitHub ** aguas arriba para el Proyecto sin código. A menudo hago esto haciendo clic en el pequeño enlace debajo del nombre del repositorio y abro el enlace en una nueva pestaña para que mi ** repositorio ** de origen ** y el repositorio ** de subida ** de origen estén abiertos al mismo tiempo . Ese enlace debería decir algo como: `'Forked de chalmerlowe / intro_to_sprinting_codeless_project:' 'muy parecido a este ejemplo del repositorio` sigsevneo`. <br>
+! [Link al repositorio original] (images / fork-repo-link.png)
 
-Once you get to the upstream GitHub repo, look at each of the items above, but see how the **upstream repo** might differ from and is similar to **your repo**.
+Una vez que llegue al repositorio upstream de GitHub, observe cada uno de los elementos anteriores, pero vea cómo el ** repo ascendente ** puede diferir de ** y es similar a ** su repositorio **.
 
-* are the tabs different?
-* do you have the ability to perform certain actions as the owner of your repo versus being a visitor to someone else's repo?
+* son las pestañas diferentes?
+* ¿tiene la capacidad de realizar ciertas acciones como el propietario de su repos en lugar de ser un visitante del repositorio de otra persona?
 * etc.
 
 
 
-If you (and your partner, if you're working in pairs) are done, then you can put your green sticky up! This is how we know you're done.
+Si usted (y su pareja, si está trabajando en parejas) han terminado, ¡puede poner su verde adhesivo! Así es como sabemos que terminaste.
 
-![green sticky note](images/Sticky-Note-02-Green-300px.png)
+! [nota adhesiva verde](images/Sticky-Note-02-Green-300px.png)
 
-## The big picture
+## El panorama
 
-The tools seen above are intended to help improve the ability of team members to communicate and track changes and proposed changes to projects.
+Las herramientas que se muestran arriba están destinadas a ayudar a mejorar la capacidad de los miembros del equipo para comunicarse y rastrear los cambios y los cambios propuestos a los proyectos.
 
-* If you find a problem in your repo you want help with OR you want to track, you may publish an Issue to let your colleagues know how they can help.
-* If you find a problem in an open source project that you feel needs correcting, but you don't have time or expertise, you may submit an Issue on the upstream project repo.
+* Si encuentra un problema en su repositorio con el que desea ayuda O desea realizar un seguimiento, puede publicar un Issue para que sus colegas sepan cómo pueden ayudarlo.
+* Si encuentra un problema en un proyecto de código abierto que cree que necesita corrección, pero no tiene tiempo o experiencia, puede enviar un Issue en el repositorio de proyecto upstream.
 
-For this Intro to Sprinting workshop, if you have suggestions that would improve the learning experience, we urge you to either:
+Para este taller introductorio al Sprint, si tiene sugerencias que mejorarían la experiencia de aprendizaje, lo instamos a:
 
-* submit an Issues
+* enviar un problema
 
-OR better yet
+O mejor aún
 
-* write up a possible edit > `git add` > `git commit` > `git push` and then move on to the next lesson and submit a Pull Request so we can consider your idea and maybe even incorporate it into the lesson material!
+* escribe una posible edición> `git add`>` git commit`> `git push` y luego pasa a la siguiente lección y envía una solicitud de extracción para que podamos considerar tu idea y tal vez incluso incorporarla al material de la lección.
 
-## Deep dive
+## Sumérgete
 
-N/A
+N / A
 
-## Resources
+## Recursos
 
-* [GitHub - Contributing to a Project](https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project)
+* [GitHub - Contribuir a un proyecto](https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project)
 
-<!-- begin auto-generated nav-links section -->
-| Previous | Up | Next |
-|:---------|:---:|-----:|
-| [Using GitHub](./github_overview.md) | [Using GitHub](./github_overview.md) | [Submitting a Pull Request](./github_submit_pull_request.md) |
-<!-- end auto-generated section -->
+<!-- comience la sección de enlaces de navegación generados automáticamente -->
+| Anterior | Arriba | Siguiente |
+|: --------- |: ---: | -----: |
+| [Usando GitHub](./github_Resumen.md) | [Usando GitHub](./github_Resumen.md) | [Presentar un Pull request](./github_submit_pull_request.md) |
+<!-- fin de la sección autogenerada -->

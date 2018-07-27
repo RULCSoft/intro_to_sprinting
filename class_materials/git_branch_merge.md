@@ -1,162 +1,161 @@
 <!-- begin auto-generated title section -->
-# Branching and Merging
+# Branching y Merging
 <!-- end auto-generated section -->
 
 
-## Time-box
+## Duración
 
-12 Minutes
+12 Minutos
 
-## Overview
+## Resumen
 
-With larger projects, it is very common to create **branches** and then **merge** the branches into the main project when you make changes. You've seen references to `master` above, the default branch. A typical enhancement would be done by:
+Con proyectos más grandes, es muy común crear ** branches ** y luego ** fusionar ** las ramas en el proyecto principal cuando realiza cambios. Has visto referencias a `master` arriba, la rama predeterminada. Una mejora típica sería realizada por:
 
-1. creating a branch (so you have a separate workspace to work in) using `git checkout -b <branch name>`
-1. doing your work as a series of `git add`, `git commit` cycles to the branch
-1. merging your changes back into `master`
-1. submitting a pull request to the project owner (covered in a separate discussion)
+1. crear una rama (para que tenga un espacio de trabajo separado para trabajar) usando `git checkout -b <branch name>`
+1. haciendo su trabajo como una serie de ciclos `git add`,` git commit` a la rama
+1. fusionando sus cambios de nuevo en `master`
+1. enviar un Pull request al propietario del proyecto (cubierto en una discusión por separado)
 
-By following this pattern, you keep your work isolated from the rest of the project until it is ready to be shared or incorporated. Examples include:
+Al seguir este patrón, mantendrá su trabajo aislado del resto del proyecto hasta que esté listo para ser compartido o incorporado. Ejemplos incluyen:
 
-* creating new features
-* experimenting with changes to the code
-* fixing bugs
+* creando nuevas características
+* experimentando con cambios al código
+* corregir errores
 
-Branches should be small and self-contained so that they can be merged easily. Sprawling and convoluted changes to code can make it nearly impossible to merge changes. In addition, it is customary for branches to be focused on specific problems, i.e., one bug fix per branch OR one new feature per branch.
+Las branches deben ser pequeñas y autónomas para que puedan fusionarse fácilmente. Los cambios vertiginosos y complicados ​​en el código pueden hacer que sea casi imposible fusionar los cambios. Además, es habitual que las branches se centren en problemas específicos, es decir, una corrección de errores por rama o una característica nueva por rama.
 
-## What to do
+## ¿Que hacer?
 
-A typical iteration of creating a feature (sometimes called a `feature branch`) would look like this:
+Una iteración típica de la creación de una característica (a veces llamada 'rama de característica') se vería así:
 
-**Create a new branch** & cause `git` to begin tracking changes in that branch
+**Crea una nueva rama** y haz que `git` comience a rastrear los cambios en esa rama
 
 ```bash
 $ git checkout -b appleseed-feature     # "-b" creates a new branch named "appleseed-feature"
 ```
 
-**Do work/edit files** in your editor or IDE ... ie, change the 23rd line in the file "jabberwocky.txt".
+** Trabaja / edita archivos ** en tu editor o IDE ... es decir, cambia la línea 23 en el archivo "jabberwocky.txt".
 
-**`git add`** changes to the staging area ... 
+** `git add` ** cambia al área de ensayo ... 
 
 ```bash
 $ git add jabberwocky.txt
 $ git commit -m 'my first bit of work'
 ```
 
-**Continue editing if desired** ...
+** Continuar editando si lo deseas ** ...
 
-**`git add`** these new changes to the staging area ... 
+** `git add` ** estos nuevos cambios al área de staging ...
 
 ```bash
 $ git add jabberwocky.txt
 $ git commit -m 'my second bit of work'
 ```
 
-**checkout the master branch** and prepare to merge all our changes with any other changes that have been accepted into the upstream codebase...
+**revise la rama principal** y prepárese para fusionar todos nuestros cambios con cualquier otro cambio que haya sido aceptado en la base de código original ...
 
 ```bash
 $ git checkout master     # this checks out the master branch
 ```
 
-**update our local copy** ... Before we try to merge our changes to master, let's update our local copy of the repo with any updates that might have occurred in the `upstream` version by using `git pull`.
+** Actualice nuestra copia local ** ... Antes de intentar fusionar nuestros cambios en master, actualicemos nuestra copia local del repositorio con las actualizaciones que puedan haber ocurrido en la versión 'original' utilizando `git pull`.
 
 ```bash   
 $ git pull                # this pulls any upstream changes into master 
 ```          
 
-**merge local changes into our local copy of master** ... With the latest and greatest `upstream` changes on your local machine, attempt to merge your branch into your local copy of `master`
+** fusiona los cambios locales en nuestra copia local de master ** ... Con los cambios más recientes y más importantes de 'upstream' en tu máquina local, intenta fusionar tu rama en tu copia local de `master`
 
 ```bash
 $ git merge appleseed-feature
 ```
 
-**`git push`** changes to our **GitHub repo** ... presuming a successful merge (don't worry will discuss what to do if the merge is not successful) you can now `git push` your changes to your **GitHub repo** (your changes do NOT go to upstream, yet...)
+** `git push` ** cambia a nuestro ** repositorio de GitHub ** ... presumiendo una fusión exitosa (no te preocupes discutirá ¿Que hacer? si la fusión no es exitosa) ahora puedes` git push` tu cambios a su ** repositorio de GitHub ** (sus cambios NO van a la corriente ascendente, aún ...)
 
 ```bash
 $ git push origin master
 ```
 
-**delete your unneeded branch** ... presuming a successful push, you can safely delete the branch:
+** elimine su rama innecesaria ** ... presumiendo una inserción exitosa, puede eliminar la rama de manera segura:
 
 ```bash
 $ git branch -d appleseed-feature
 ```
 
-If you (and your partner, if you're working in pairs) are done, then you can put your green sticky up! This is how we know you're done.
+Si usted (y su pareja, si está trabajando en parejas) han terminado, ¡puede poner su verde adhesivo! Así es como sabemos que terminaste.
 
-![green sticky note](images/Sticky-Note-02-Green-300px.png)
+! [nota adhesiva verde](images/Sticky-Note-02-Green-300px.png)
 
-## The big picture
+## El panorama
 
-Let's imagine that you are working on a project with multiple commits to the master branch and a single bug fix branch to fix Issue #53 called `iss53`. Commits `C3` and `C5` are the changes that were committed on the branch, and `C4` is a change made by someone else to the master branch during that same timeframe.
+Imaginemos que está trabajando en un proyecto con varias commits para la rama principal y una sola rama de corrección de errores para reparar el Issue # 53 llamado `iss53`. Confirma `C3` y` C5` son los cambios que se hicieron commit en la rama, y ​​`C4` es un cambio realizado por otra persona a la rama principal durante ese mismo período de tiempo.
 
-The history created by the above steps would look something like this:
+El historial creado por los pasos anteriores se vería así:
 
-<img src="https://git-scm.com/book/en/v2/book/03-git-branching/images/basic-merging-2.png">
-**Source**: https://git-scm.com/book/en/v2/book/03-git-branching/images/basic-merging-2.png
+<img src = "https://git-scm.com/book/en/v2/book/03-git-branching/images/basic-merging-2.png">
+** Fuente **: https://git-scm.com/book/en/v2/book/03-git-branching/images/basic-merging-2.png
 
-Following this workflow allows you to potentially work on multiple features or bugs and yet still maintain a clean, reliable and working set of code at all times.
+Seguir este flujo de trabajo le permite potencialmente trabajar en múltiples características o errores y aún así mantener un conjunto de código limpio, confiable y funcional en todo momento.
 
-## Deep dive
+## Sumérgete
 
-### Make a change in a branch
+### Haz un cambio en una rama
 
-Besides `git add`, `git commit`, `git push`, the next logical step is to grow familiar with using the **branch-work-merge** flow to isolate your work from changes made by others.
+Además de `git add`,` git commit`, `git push`, el siguiente paso lógico es familiarizarse con el uso del flujo ** branch-work-merge ** para aislar su trabajo de los cambios realizados por otros.
 
-#### Create a branch
+#### Crear una rama
 
-**Note:** replace "appleseed-feature" with the name of the feature you are adding. The `git checkout` command allows you to change to a new branch. If that branch does not exist yet, it can be created with the `-b` option. 
+** Nota: ** reemplace "appleseed-feature" con el nombre de la función que está agregando. El comando `git checkout` te permite cambiar a una nueva rama. Si esa rama aún no existe, se puede crear con la opción `-b`.
 
 ```bash
 $ git checkout -b appleseed-feature
 ```
 
-What makes a good branch name? What are the rules for naming branches? This is a short list of rules (for a complete list, see the [git man pages](https://mirrors.edge.kernel.org/pub/software/scm/git/docs/git-check-ref-format.html).
+¿Cual sería un buen nombre de branch? ¿Cuáles son las reglas para nombrar branches? Esta es una breve lista de reglas (para obtener una lista completa, consulte las [páginas de git man]) (https://mirrors.edge.kernel.org/pub/software/scm/git/docs/git-check-ref-format .html).
 
-* They cannot have two consecutive dots `..` anywhere
-* They cannot contain a `\`
-* They cannot be the single character `@`
-* They cannot begin or end with a slash `/`
-* They cannot have question-mark `?`, asterisk `*`, or open bracket `[` anywhere
-* They cannot have ASCII control characters (`\t`, `\n`), `space`, tilde `~`, caret `^`, or colon `:` anywhere.
+* No pueden tener dos puntos consecutivos `..` en cualquier lugar
+* No pueden contener un `\`
+* No pueden ser el caracter simple `@`
+* No pueden comenzar o terminar con una barra `/`
+* No pueden tener signo de interrogación `?`, Asterisco `*`, o abrir corchete `[` en cualquier parte
+* No pueden tener caracteres de control ASCII (`\ t`,` \ n`), `space`, tilde` ~ `, caret` ^ `o colon`: `en cualquier lugar.
 
-#### Make your changes
+#### Haz tus cambios
 
-The whole point of creating a branch is to create a safe place to modify a specific portion of the code. With a `git branch` created, it is safe to edit your files, before proceeding with the remaining steps belows.
+El objetivo de crear un branch es crear un lugar seguro para modificar una parte específica del código. Con una 'rama git' creada, es seguro editar sus archivos, antes de continuar con los pasos restantes a continuación.
 
-#### Stage and commit your changes
+#### Etapa y confirma tus cambios
 
-As previously described, once you are satisifed with your changes, they must be staged and then committed.
+Como se describió anteriormente, una vez que esté satisfecho con sus cambios, se deben organizar y luego comprometer.
 
 ```bash
 $ git add johnny_appleseed.txt
 $ git commit -m "added edits to johnny's history"
 ```
 
-#### Merge your changes into the master branch
+#### Combina tus cambios en la rama principal
 
-As noted above, `git checkout` allows you to change to an alternate branch. The `master` branch is created by default by `git` and is often used as the main branch for release. To change back to the `master` branch, use `git checkout master`. Often others may be working on the same codebase and some of those change may impact your codebase, so it is critical to collect all of those changes (i.e. download them from the `upstream` repository) for comparison to your code, using `git pull`.
+Como se señaló anteriormente, `git checkout` le permite cambiar a una rama alternativa. La rama `master` se crea de forma predeterminada por` git` y se usa a menudo como la rama principal para el lanzamiento. Para volver a la rama `master`, use` git checkout master`. A menudo otros pueden estar trabajando en la misma base de código y algunos de esos cambios pueden afectar su base de código, por lo que es fundamental recopilar todos esos cambios (es decir, descargarlos del repositorio "ascendente") para compararlos con su código, utilizando `git pull `.
 
-For now, we will presume that there are no conflicts between your changes and other changes. With that premise in mind, you can merge your code and your local copy of the `upstream` repo.
+Por ahora, supondremos que no hay conflictos entre sus cambios y otros cambios. Con esa premisa en mente, puede fusionar su código y su copia local del repositorio "upstream".
 
 ```bash
 $ git checkout master
 $ git pull
 $ git merge appleseed-feature
 ```
+Si tiene algún conflicto, deberá resolverlo. GitHub tiene un recurso simple para [resolver conflictos](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/). Una discusión completa de la resolución de conflictos está más allá del alcance de esta lección.
 
-If you have any conflicts, you will need to address them. GitHub has a simple resource for [resolving conflicts](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/). A full discussion of conflict resolution is beyond the scope of this lesson.
+#### Eliminar su rama de características
 
-#### Delete your feature branch
-
-When you are finished using a branch (i.e. all the pertinent changes have been merged into master), you can simply delete it:
+Cuando haya terminado de usar una bifurcación (es decir, todos los cambios pertinentes se hayan fusionado en el maestro), simplemente puede eliminarla:
 
 ```bash
 $ git branch -d appleseed-feature
 ```
 
 
-## Resources
+## Recursos
 
 * [Git Branching - Branches in a Nutshell](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
 * [Git Branching - Basic Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
@@ -164,5 +163,5 @@ $ git branch -d appleseed-feature
 <!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [Git Common Operations](./git_common_operations.md) | [Using Git](./git_overview.md) | [Using GitHub](./github_overview.md) |
+| [Git Common Operations](./git_common_operations.md) | [Using Git](./git_Resumen.md) | [Using GitHub](./github_Resumen.md) |
 <!-- end auto-generated section -->

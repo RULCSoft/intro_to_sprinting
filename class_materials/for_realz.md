@@ -1,10 +1,10 @@
 <!-- begin auto-generated title section --><!-- end auto-generated section -->
 
-## Time-box
+## Duración
 
-<XX> Minutes
+<XX> Minutos
 
-## Overview
+## Resumen
 
 <2-3 paragraphs>
 

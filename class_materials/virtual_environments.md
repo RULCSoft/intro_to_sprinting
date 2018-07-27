@@ -1,129 +1,129 @@
-<!-- begin auto-generated title section -->
-# Setting up Virtual Environments
-<!-- end auto-generated section -->
+<!-- comienza la sección de título generado automáticamente -->
+# Configuración de entornos virtuales
+<!-- fin de la sección autogenerada -->
 
 
-## Time-box
+## Duracion
 
-15 Minutes
-
-
-## Overview
-
-Virtual environment tools enable you to create a standalone environment for your project so that you can avoid conflicts between one project and another in terms of software versions (e.g., `python 2.7` or `python 3.6`) as well as the versions of other libraries that your project might depend upon.
-
-### Objectives
-
-Through participating in this session, attendees will be able to:
-
-* Identify what a virtual environment is AND when using a virtual environment is a suitable solution to a task
-* Create a virtual environment
-* Populate a virtual environment with the software necessary to complete a programming/development task
+15 minutos
 
 
-## What to do
+## Resumen
 
-* Create a directory for your project, in this case, we will create a directory called `mytest`
-* On your command prompt, make sure you are in a directory where you want your project folder to be located (many people put this in their `My Documents` OR `home` folder. From that directory, run the following command:
+Las herramientas de entorno virtual le permiten crear un entorno independiente para su proyecto, de modo que pueda evitar conflictos entre un proyecto y otro en términos de versiones de software (por ejemplo, `python 2.7` o` python 3.6`), así como las versiones de otras bibliotecas de lo que tu proyecto podría depender.
 
-```bash
+### Objetivos
+
+Al participar en esta sesión, los asistentes podrán:
+
+* Identificar qué es un entorno virtual Y cuando usar un entorno virtual es una solución adecuada para una tarea
+* Crea un entorno virtual
+* Llene un entorno virtual con el software necesario para completar una tarea de programación / desarrollo
+
+
+## Qué hacer
+
+* Crea un directorio para tu proyecto, en este caso, crearemos un directorio llamado `mytest`
+* En el símbolo del sistema, asegúrese de que se encuentra en un directorio donde desea que se ubique la carpeta del proyecto (muchas personas lo colocan en su carpeta `Mis documentos` O` inicio`. Desde ese directorio, ejecute el siguiente comando:
+
+`` `bash
 $ mkdir mytest
-```
+`` `
 
-* Change directories into the new folder:
+* Cambiar directorios en la nueva carpeta:
 
-```bash
+`` `bash
 $ cd mytest
-```
+`` `
 
-* Create a virtual environment with Python 3, using the following command:
+* Crea un entorno virtual con Python 3, usando el siguiente comando:
 
-```bash
-$ conda create -n mytest python=3
-```
-* Activate your virtual environment using the command appropriate to your operating system:
+`` `bash
+$ conda create -n mytest python = 3
+`` `
+* Activa tu entorno virtual usando el comando apropiado para tu sistema operativo:
 
-#### <img src = "images/mac_icon.png" width="24" height="24"><img src = "images/linux_icon.jpg" width="24" height="24"> Mac/ Linux
+#### <img src = "images / mac_icon.png" width = "24" height = "24"> <img src = "images / linux_icon.jpg" width = "24" height = "24"> Mac / Linux
 
-```bash
+`` `bash
 $ source activate mytest
-```
+`` `
 
-#### <img src="images/windows_icon.jpg" width="24" height="24"> Windows
+#### <img src = "images / windows_icon.jpg" width = "24" height = "24"> Windows
 
-```bat
-C:\> activate mytest
-```
+`` `murciélago
+C: \> activate mytest
+`` `
 
-* Install two additional packages to your virtual environment (as a suggestion, try `ipython` and `mock`) using the following command:
+* Instale dos paquetes adicionales en su entorno virtual (como sugerencia, intente con `ipython` y` mock`) usando el siguiente comando:
 
-```bash
-conda install ipython mock
-```
+`` `bash
+conda install ipython simulacro
+`` `
 
-## Done with commands for now!
+## Hecho con comandos por ahora!
 
-If you (if you're working in pairs, you and your partner) are done, then now you can put your green sticky up! This is how we know you're done with the commands.
+Si (si trabajas en parejas, tú y tu pareja) ya terminaron, ¡ahora puedes poner tu sticker verde! Así es como sabemos que terminaste con los comandos.
 
-![green sticky note](images/Sticky-Note-02-Green-300px.png)
+! [nota adhesiva verde](images/Sticky-Note-02-Green-300px.png)
 
-If you like reading, you can also keep reading this page.
+Si le gusta leer, también puede seguir leyendo esta página.
 
-## The big picture
+## El panorama
 
-One area of confusion that often comes up when working on open source comes from the fact that at any given time, there may be multiple copies of the code (on your local computer, in your Github repository OR in the original project's repository).
+Un área de confusión que aparece a menudo cuando se trabaja en código abierto proviene del hecho de que en cualquier momento dado, puede haber múltiples copias del código (en su computadora local, en su repositorio de Github O en el repositorio del proyecto original).
 
-Throughout this workshop, we will do our best to help highlight which copy of the code we are working with via a series of pictures. Specifically, we will identify when we are interacting with local files OR with our Github Repository OR with the original project's repository, etc.
+A lo largo de este taller, haremos nuestro mejor esfuerzo para ayudar a resaltar con qué copia del código estamos trabajando a través de una serie de imágenes. Específicamente, identificaremos cuándo estamos interactuando con archivos locales O con nuestro Repositorio de Github O con el repositorio del proyecto original, etc.
 
-For this lesson, we image a fairly typical directory/folder structure on your local computer. In this picture, NOTE that we have:
+Para esta lección, visualizamos una estructura de directorios / carpetas bastante típica en su computadora local. En esta imagen, TEN EN CUENTA que tenemos:
 
-* a directory for your **project(s)** to be saved in
-* a directory associated with **miniconda**
+* un directorio para su ** proyecto (s) ** que se guardará en
+* un directorio asociado con ** miniconda **
 
-![Our Local Directories](images/basic_dir.png)
+! [Nuestros directorios locales](images/basic_dir.png)
 
-When you create a virtualenv, conda will add subdirectories to the miniconda directory. Specifically it will create a directory that will contain:
+Cuando creas un virtualenv, conda agregará subdirectorios al directorio miniconda. Específicamente, creará un directorio que contendrá:
 
-* a database and metadata about the virtualenv
-* software and libraries related to the project (i.e., Python and any modules you install in the virtualenv)
+* una base de datos y metadatos sobre virtualenv
+* software y bibliotecas relacionadas con el proyecto (es decir, Python y cualquier módulo que instale en el virtualenv)
 
-NOTE: these folders are **NOT** duplicates of each other, but they **ARE** tied to one another. 
-NOTE: The miniconda virtualenv folders will **NOT** contain your project code.
+NOTA: estas carpetas son ** NO ** duplicadas entre sí, pero ** están ** vinculadas entre sí.
+NOTA: Las carpetas de miniconda virtualenv ** ** incluirán su código de proyecto.
 
-![Local Dirs with conda environments](images/conda_envs.png)
+! [Dires locales con ambientes conda](images/conda_envs.png)
 
 
-## Deep dive
+## Sumérgete
 
-### What is a virtual environment?
+### ¿Qué es un entorno virtual?
 
-As mentioned above, virtual environments (also called virtualenvs) are tools used to keep projects separate, especially in terms of keeping different software versions separate and different library versions separate. For example, virtualenvs prevent Python's site packages folder from getting filled with potentially conflicting versions of software AND thus prevents problems that arise when one project needs **version x.x** of a library but another project needs **version y.y** of the same library. At their core, virtualenvs are glorified directories that use scripts and metadata to organize and control the environment. You are allowed to have an essentially unlimited number of virtualenvs. And as you saw above, they are very easy to create using various command line tools, such as `conda`.
+Como se mencionó anteriormente, los entornos virtuales (también llamados virtualenvs) son herramientas que se utilizan para mantener los proyectos separados, especialmente en términos de mantener diferentes versiones de software separadas y diferentes versiones de bibliotecas separadas. Por ejemplo, virtualenvs evitan que la carpeta de paquetes de sitios de Python se llene de versiones potencialmente conflictivas de software Y así previene problemas que surgen cuando un proyecto necesita ** versión xx ** de una biblioteca pero otro proyecto necesita ** versión yy ** de la misma biblioteca. En su núcleo, virtualenvs son directorios glorificados que usan scripts y metadatos para organizar y controlar el entorno. Se le permite tener un número esencialmente ilimitado de virtualenvs. Y como viste arriba, son muy fáciles de crear usando varias herramientas de línea de comandos, como `conda`.
 
-### When should we use a virtual environment?
+### ¿Cuándo deberíamos usar un entorno virtual?
 
-Anytime you have more than one project and there is a possibility of conflicts between your libraries, it is a good time to use a virtualenv. Having said that, many programmers use virtual environments for **all but the most trivial** programming tasks. Especially for beginners, using virtualenvs early on in your learning career will build a valuable skill AND help prevent sneaky bugs related to version discrepancies. Bugs that can be hard to diagnose.
+Cada vez que tiene más de un proyecto y existe la posibilidad de conflictos entre sus bibliotecas, es un buen momento para usar virtualenv. Habiendo dicho eso, muchos programadores usan entornos virtuales para ** todas las tareas de programación menos triviales **. Especialmente para principiantes, el uso de virtualenvs desde el principio en su carrera de aprendizaje creará una habilidad valiosa Y ayudará a prevenir errores furtivos relacionados con las discrepancias de versión. Errores que pueden ser difíciles de diagnosticar.
 
-### How do you create a virtual environment?
+### ¿Cómo se crea un entorno virtual?
 
-While there are several programs or libraries that can generate virtualenvs (see the [Resources](#resources) section for a list). For today's lesson, we will be using the `conda` package manager, which includes the capability to simply and easily produce virtualenvs.
+Si bien hay varios programas o bibliotecas que pueden generar virtualenvs (consulte la sección [Recursos](#recursos) para obtener una lista). Para la lección de hoy, usaremos el administrador de paquetes `conda`, que incluye la capacidad de producir virtualenvs de manera simple y fácil.
 
-Presuming you have `conda` installed, these steps enable you to create and activate a virtual environment.
+Suponiendo que tiene `conda` instalado, estos pasos le permiten crear y activar un entorno virtual.
 
-```bash
-$ conda create -n mytest python=3
-```
+`` `bash
+$ conda create -n mytest python = 3
+`` `
 
-Description:
-* `conda` runs the conda program.
-* `create` tells it to create a virtualenv
-* `-n` identifies the name of the virtualenv, in this case, `mytest`
-* `python=3` tells conda that you want to install Python version 3 in this virtualenv
+Descripción:
+* `conda` ejecuta el programa conda.
+* `create` le dice que cree un virtualenv
+* `-n` identifica el nombre del virtualenv, en este caso,` mytest`
+* `python = 3` le dice a conda que quiere instalar Python versión 3 en este virtualenv
 
-**NOTE**: you can use version 2.x or version 3.x of Python and regardless which you choose, conda will default to the most recent version of Python. Sorta... [see footnote 1](#footnotes). If you need to select a specific minor version of python, use the following syntax:
+** NOTA **: puede usar la versión 2.xo la versión 3.x de Python, e independientemente de cuál elija, conda usará de manera predeterminada la versión más reciente de Python. Sorta ... [ver nota al pie 1](#footnotes). Si necesita seleccionar una versión menor específica de python, use la siguiente sintaxis:
 
-`python=3.2`
+`python = 3.2`
 
-When you execute the `conda create` command, `conda` prepares to install Python and any dependencies that Python relies upon. It will display output similar to the following. 
+Cuando ejecuta el comando `conda create`,` conda` se prepara para instalar Python y las dependencias de las que depende Python. Mostrará una salida similar a la siguiente.
 
 ```bash
 MacComputer:intro_to_sprinting username$ conda create -n mytest python=3
@@ -160,18 +160,18 @@ The following NEW packages will be INSTALLED:
 Proceed ([y]/n)?
 ```
 
-To finish the creation of the virtualenv and install the software, press `y`.
+Para finalizar la creación del virtualenv e instalar el software, presione `y`.
 
-### Activating a virtualenv
+### Activando un virtualenv
 
-Once you have created a virtualenv, you will need to activate it. Activation has several side effects:
+Una vez que haya creado un virtualenv, tendrá que activarlo. La activación tiene varios efectos secundarios:
 
-* It temporarily changes your `$PATH` variable so calls to the `python` command (and similar commands) will look first in the virtualenv's `bin/` directory. 
-* It temporarily changes your shell prompt to show which virtualenv you are using. Your prompt will likely look something like this, with the name of your virtualenv in parenthesis in front of the prompt:
-    * Mac/Linux: `(mytest) $`
-    * Windows: `(mytest) C:\>`
+* Cambia temporalmente la variable `$ PATH` para que las llamadas al comando` python` (y comandos similares) se vean primero en el directorio `bin /` del virtualenv.
+* Cambia temporalmente el indicador de shell para mostrar qué virtualenv está usando. Es probable que su mensaje se parezca a esto, con el nombre de su virtualenv entre paréntesis delante del mensaje:
+     * Mac / Linux: `(mytest) $`
+     * Windows: `(mytest) C: \>`
 
-To activate your virtualenv, run the appropriate command for your operating system:
+Para activar su virtualenv, ejecute el comando apropiado para su sistema operativo:
 
 #### Mac/Linux
 
@@ -185,19 +185,19 @@ $ source activate mytest
 C:\> activate mytest
 ```
 
-**Note:** If you are using Power Shell, `activate` won't work out of the box. Type `cmd` first to get a regular command prompt, *then* `activate mytest`.
+** Nota: ** Si está utilizando Power Shell, `activate` no funcionará por defecto. Escriba `cmd` primero para obtener un símbolo del sistema normal, * luego *` activate mytest`.
 
-### Adding software to your virtualenv 
+### Agregar software a su virtualenv
 
-To add more software to the virtualenv, you can use `conda` to install the software. The maintainers of conda provide access to many Python and non-Python libraries, but not all of them. If conda cannot install a particular library that you need, you can generally use `pip` or a similar package installation tool to install it instead (covering `pip` is outside the scope of this workshop).
+Para agregar más software al virtualenv, puede usar `conda` para instalar el software. Los mantenedores de conda proporcionan acceso a muchas bibliotecas Python y no Python, pero no a todas. Si conda no puede instalar una biblioteca particular que necesita, generalmente puede usar `pip` o una herramienta de instalación de paquetes similar para instalarlo en su lugar (cubrir` pip` está fuera del alcance de este taller).
 
-For example, to install IPython, you can use the following `conda` command:
+Por ejemplo, para instalar IPython, puede usar el siguiente comando `conda`:
 
 ```
 conda install ipython
 ```
 
-Conda will prepare to install IPython and any dependencies that IPython relies upon. It will display output similar to the following (truncated to save space).
+Conda se preparará para instalar IPython y cualquier dependencia en la que se base IPython. Mostrará un resultado similar al siguiente (truncado para ahorrar espacio).
 
 ```bash
 Fetching package metadata .......
@@ -231,17 +231,17 @@ The following packages will be UPDATED:
 Proceed ([y]/n)?
 ```
 
-To finish the installation of IPython and its dependencies, press `y`.
+Para finalizar la instalación de IPython y sus dependencias, presione `y`.
 
-#### Multiple packages
+#### Varios paquetes
 
-Multiple packages can be installed at the same time, by separating the package names with spaces:
+Se pueden instalar varios paquetes al mismo tiempo, separando los nombres de paquetes con espacios:
 
-`conda install flake8 mock funcsigs`
+`conda install flake8 funcsigs simulacro`
 
-### Leaving the virtualenv when you are done
+### Dejando el virtualenv cuando hayas terminado
 
-When you are done working in your virtualenv, you can deactivate it using the following command:
+Cuando haya terminado de trabajar en su virtualenv, puede desactivarlo con el siguiente comando:
 
 #### Mac/Linux
 
@@ -258,29 +258,29 @@ C:\>
 ```
 
 
-### Alternatives to Conda
+### Alternativas a Conda
 
-See the Resources section for links to other tools that are often used to create virtual environments and/or handle package management, like: `pip`, `venv`, `virtualenv`.
+Consulte la sección de Recursos para encontrar enlaces a otras herramientas que a menudo se usan para crear entornos virtuales y / o manejar administración de paquetes, como: `pip`,` venv`, `virtualenv`.
 
-Discussing these is outside the scope of this course. Using either of these tools should be very similar to using conda, but there may be nuances depending on your system, the tool you choose to use and your version of Python. 
-
-
-## Resources
-
-* [Conda Documentation](http://conda.pydata.org/docs/get-started.html): A getting started guide on how to use conda
-* [pip instructions](https://docs.python.org/3/installing/): An overview of a Python-oriented package manager: Pip
-* [Conda vs Pip](https://jakevdp.github.io/blog/2016/08/25/conda-myths-and-misconceptions/): Excellent discussion on the benefits of conda and the differences between conda and pip
-* [venv](https://docs.python.org/3/library/venv.html): A tool, included with Python, to create isolated Python environments
-* [virtualenv](https://virtualenv.pypa.io/en/stable/): A popular tool, albeit 3rd party, to create isolated Python environments
+Discutir esto está fuera del alcance de este curso. Usar cualquiera de estas herramientas debería ser muy similar al uso de conda, pero puede haber matices dependiendo de su sistema, la herramienta que elija usar y su versión de Python.
 
 
+## Recursos
 
-## Footnotes
+* [Documentación de Conda](http://conda.pydata.org/docs/get-started.html): una guía de introducción sobre cómo usar conda
+* [instrucciones de pip](https://docs.python.org/3/installing/): descripción general de un administrador de paquetes orientado a Python: Pip
+* [Conda vs Pip](https://jakevdp.github.io/blog/2016/08/25/conda-myths-and-misconceptions/): excelente discusión sobre los beneficios de la conda y las diferencias entre conda y pip
+* [venv](https://docs.python.org/3/library/venv.html): una herramienta, incluida con Python, para crear entornos de Python aislados
+* [virtualenv](https://virtualenv.pypa.io/en/stable/): una herramienta popular, aunque sea de terceros, para crear entornos de Python aislados
 
-[1]: the maintainers of conda put together resources for the most recent versions of Python libraries as they get released, but sometimes there may be a short lag.
 
-<!-- begin auto-generated nav-links section -->
-| Previous | Up | Next |
-|:---------|:---:|-----:|
-| [Installing the Software You'll Need](./installing_tools.md) | [Environment Set-up](./environment_overview.md) | [Setting up GitHub and Forking a Repository](./github_setup.md) |
-<!-- end auto-generated section -->
+
+## Notas a pie de página
+
+[1]: los mantenedores de conda reúnen recursos para las versiones más recientes de las bibliotecas de Python a medida que se lanzan, pero a veces puede haber un retraso breve.
+
+<!-- comience la sección de enlaces de navegación generados automáticamente -->
+| Anterior | Arriba | Siguiente |
+|: --------- |: ---: | -----: |
+| [Instalar el software que necesitará](./installed_tools.md) | [Configuración del entorno](./environment_Resumen.md) | [Configuración de GitHub y bifurcación de un repositorio](./github_setup.md) |
+<!-- fin de la sección autogenerada -->

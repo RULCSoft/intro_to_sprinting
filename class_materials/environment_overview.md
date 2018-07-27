@@ -1,22 +1,22 @@
-<!-- begin auto-generated title section -->
-# Environment Set-up
-<!-- end auto-generated section -->
+<!-- comienza la sección de título generado automáticamente -->
+# Configuración del entorno
+<!-- fin de la sección autogenerada -->
 
 
-## Overview
+## Resumen
 
-During this portion of the workshop, we will be installing software and configuring items both on your computer and on the site http://www.github.com/
+Durante esta parte del taller, instalaremos software y configuraremos elementos tanto en su computadora como en el sitio http://www.github.com/
 
-## Lessons
+## Lecciones
 
-1. [Installing the Software You'll Need](./installing_tools.md)
-1. [Setting up Virtual Environments](./virtual_environments.md)
-1. [Setting up GitHub](./github_setup.md)
-1. [Forking a Repository](./fork_a_repo.md)
-1. [Setting up Git](./git_config.md)
+1. [Instalar el software que necesitará](./installed_tools.md)
+1. [Configuración de entornos virtuales](./virtual_environments.md)
+1. [Configurando GitHub](./github_setup.md)
+1. [Fork de un repo](./fork_a_repo.md)
+1. [Configurando Git](./git_config.md)
 
-<!-- begin auto-generated nav-links section -->
-| Previous | Up | Next |
-|:---------|:---:|-----:|
-| [Student Preparation](./prereq_student.md) | [Table of Contents](./README.md) | [Installing the Software You'll Need](./installing_tools.md) |
-<!-- end auto-generated section -->
+<!-- comience la sección de enlaces de navegación generados automáticamente -->
+| Anterior | Arriba | Siguiente |
+|: --------- |: ---: | -----: |
+| [Preparación del alumno](./prereq_student.md) | [Table of Contents](./README.md) | [Instalar el software que necesitará](./installed_tools.md) |
+<!-- fin de la sección autogenerada -->

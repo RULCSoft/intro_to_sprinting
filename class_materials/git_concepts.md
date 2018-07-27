@@ -1,14 +1,14 @@
 <!-- begin auto-generated title section -->
-# Git Concepts
+# Conceptos Git
 <!-- end auto-generated section -->
 
 
-## Time-box
+## Duración
 
-15 Minutes
+15 Minutos
 
 
-## Overview
+## Resumen
 
 Git repositories can seem sophisticated, but at the lowest level, they are fairly simple: Git tracks changes to files in a special database AND categorizes those files. For our purposes, we will compare each categorization to an analogy in the following ways:
 
@@ -21,14 +21,14 @@ Git repositories can seem sophisticated, but at the lowest level, they are fairl
 
 As we look at each of these, we will imagine that we are processing materials in a warehouse and shipping them to another warehouse location.
 
-## What to do
+## ¿Que hacer?
 
 Take a break, listen, enjoy the show
 
 : )
 
 
-## The big picture
+## El panorama
 
 [Jessica Kerr](https://github.com/jessitron) gave a great talk using this analogy, you can watch it here:
 
@@ -36,7 +36,7 @@ Take a break, listen, enjoy the show
 
 You can reach this video, here: [Git Happens](https://www.youtube.com/watch?v=yCh6TSLIQBQ).
 
-## Deep dive
+## Sumérgete
 
 As noted above, `git` tracks changes to files in a database AND categorizes files in the following ways:
 
@@ -93,7 +93,7 @@ Nothing gets copied from your local system until you `git push` it to a remote r
 
 **NOTE:** we're not yet thinking about how to get your changes back to the original project; that will be covered later. At this point, all these efforts have been focused on repos that you control.
 
-## Resources
+## Recursos
 
 ### Documentation and Books:
 
@@ -124,5 +124,5 @@ Nothing gets copied from your local system until you `git push` it to a remote r
 <!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [Using Git](./git_overview.md) | [Using Git](./git_overview.md) | [Cloning a Repository](./git_cloning.md) |
+| [Using Git](./git_Resumen.md) | [Using Git](./git_Resumen.md) | [Cloning a Repository](./git_cloning.md) |
 <!-- end auto-generated section -->

@@ -1,54 +1,54 @@
-<!-- begin auto-generated title section -->
-# Git Common Operations
-<!-- end auto-generated section -->
+<!-- comienza la sección de título generado automáticamente -->
+# Operaciones comunes de Git
+<!-- fin de la sección autogenerada -->
 
 
-## Time-box
+## Duracion
 
-10 Minutes
+10 minutos
 
 
-## Overview
+## Resumen
 
-Git has a number of capabilities to simplify your life, help you understand the status of your directory and improve your ability to communicate about your changes.
+Git tiene una serie de capacidades para simplificar su vida, ayudarlo a comprender el estado de su directorio y mejorar su capacidad de comunicar sus cambios.
 
-When using `git`, sometimes you want to know more about the changes you are committing ... this is where `git diff` comes in. 
+Cuando usas `git`, a veces quieres saber más sobre los cambios que estás cometiendo ... aquí es donde entra` git diff`.
 
-## What to do
+## Qué hacer
 
-For this next exercise, we will change a single file and use the `git diff` tool to examine those specific changes in detail.
+Para este próximo ejercicio, cambiaremos un solo archivo y usaremos la herramienta `git diff` para examinar esos cambios específicos en detalle.
 
-1. Use your text editor to open the `beowulf.txt` file in the your local Codeless Project repo.
-2. Change the letter `B` in the first line `The Project Getenberg EBook of Beowulf ...` to a lowercase `b`.
-1. Execute the following command:
+1. Use su editor de texto para abrir el archivo `beowulf.txt` en el repositorio local de Proyecto sin código.
+2. Cambia la letra "B" en la primera línea "The Project Getenberg EBook of Beowulf ..." a una "b" minúscula.
+1. Ejecute el siguiente comando:
 
 ```bash
 git diff
 ```
 
-This will show you, in detail, the differences between the last version of the file that was committed via `git` and any changes you have since created. For details on how this is broken out, see the **Deep Dive** section.
+Esto le mostrará, en detalle, las diferencias entre la última versión del archivo que se confirmó mediante `git` y cualquier cambio que haya creado desde entonces. Para detalles sobre cómo se divide esto, vea la sección ** Sumérgete **.
 
-## Done with commands for now!
+## Hecho con comandos por ahora!
 
-If you (and your partner, if you're working in pairs) are done, then you can put your green sticky up! This is how we know you're done.
+Si usted (y su pareja, si está trabajando en parejas) han terminado, ¡puede poner su verde adhesivo! Así es como sabemos que terminaste.
 
-![green sticky note](images/Sticky-Note-02-Green-300px.png)
+! [nota adhesiva verde](images/Sticky-Note-02-Green-300px.png)
 
-## The big picture
+## El panorama
 
-With your own projects, for 95% of what you do, `git status` and `git diff` should be sufficient to regularly track your progress and confirm the changes you have made. You will use these commands, along with `git add`, `git commit`, `git push` more than any others. 
+Con sus propios proyectos, para el 95% de lo que hace, `git status` y` git diff` deberían ser suficientes para realizar un seguimiento regular de su progreso y confirmar los cambios que ha realizado. Utilizará estos comandos, junto con `git add`,` git commit`, `git push` más que cualquier otro.
 
-**NOTE:** We will cover several more advanced concepts in later discussions.
+** NOTA: ** Cubriremos varios conceptos más avanzados en discusiones posteriores.
 
-## Deep dive
+## Sumérgete
 
-It can be very helpful to see what's different between the file you are working on and the last-committed version. To do this, use the `git diff` command.
+Puede ser muy útil ver qué hay de diferente entre el archivo en el que está trabajando y la última versión confirmada. Para hacer esto, use el comando `git diff`.
 
-`git diff` represents changes in a manner referred to generally as "diff format". This format most basically represents all changes as the addition or removal of lines from files.
+`git diff` representa cambios de una manera conocida generalmente como" formato de diff ". Este formato básicamente representa todos los cambios como la adición o eliminación de líneas de los archivos.
 
-**Note:** the examples below are in black/white, but in most command-line environments (`bash`, for example) they will also be color-coded to help make them easier to read.
+** Nota: ** los ejemplos a continuación están en blanco / negro, pero en la mayoría de los entornos de línea de comandos (`bash`, por ejemplo) también estarán codificados por colores para facilitar su lectura.
 
-If I add a line to a file, I'll see something like this:
+Si agrego una línea a un archivo, veré algo como esto:
 
 ```bash
 $ git diff
@@ -63,13 +63,14 @@ index 624b469..f8b6f0a 100644
 +line 13
 ```
 
-The first part of the output shows the filenames for the files being compared. This is important, because the output from `git diff` might display many files if you have changed numerous files in your repo. You can also specify individual files or groups of files by providing the file name(s) as arguments to the `git diff` command like so: `git diff <file1> <file2> ...`. Even with a single file specified, the output will always show you which file(s) are being compared with each change.
+La primera parte del resultado muestra los nombres de archivo de los archivos que se comparan. Esto es importante, porque la salida de `git diff` puede mostrar muchos archivos si ha cambiado numerosos archivos en su repositorio. También puede especificar archivos individuales o grupos de archivos proporcionando los nombres de los archivos como argumentos al comando `git diff` como lo siguiente:` git diff <archivo1> <archivo2> ... `. Incluso con un solo archivo especificado, la salida siempre le mostrará qué archivo (s) se está (n) comparando con cada cambio.
 
-The line that starts with a single `+` indicates that this line is new compared to what's currently staged OR committed. Also note that the tool shows me a few lines before and/or after the change to help me see the context of the change.
+La línea que comienza con un solo `+` indica que esta línea es nueva en comparación con lo que está actualmente en escena O comprometido. También tenga en cuenta que la herramienta me muestra algunas líneas antes y / o después del cambio para ayudarme a ver el contexto del cambio.
 
-Also you can see which line number(s) are involved in the change. The `@@` line tells you that the displayed content starts at line 10 and includes 3 lines (`10,3`) from the original file and then tells you that the displayed content also starts at line 10 and includes 4 lines (`10,4`) from the new file.
+También puede ver qué número (s) de línea están involucrados en el cambio. La línea `@@` le dice que el contenido mostrado comienza en la línea 10 e incluye 3 líneas (`10,3`) del archivo original y luego le dice que el contenido mostrado también comienza en la línea 10 e incluye 4 líneas (` 10,4`) del nuevo archivo.
 
-Similarly, if I remove a line:
+Del mismo modo, si elimino una línea:
+
 
 ```bash
 $ git diff
@@ -85,9 +86,9 @@ index f8b6f0a..abe1f83 100644
  line 13
 ```
 
-Here, the `-` shows me the line that was removed, i.e. line 12. Notice that the value displayed for the starting line and the number of lines displayed may change: the `@@` line tells you that the displayed content starts at line 9 and includes 5 lines (`9,5`) from the original file and then tells you that the displayed content also starts at line 9 and includes only 4 lines (`9,4`) from the new file.
+Aquí, el `-` me muestra la línea que se eliminó, es decir, la línea 12. Observe que el valor mostrado para la línea de partida y el número de líneas mostradas puede cambiar: la línea` @@ `le dice que el contenido mostrado comienza en línea 9 e incluye 5 líneas (`9,5`) del archivo original y luego le dice que el contenido mostrado también comienza en la línea 9 e incluye solo 4 líneas (` 9,4`) del nuevo archivo.
 
-If I *change* a line, the change actually appears as a removed line AND an added line:
+Si * cambio * una línea, el cambio aparece realmente como una línea eliminada Y una línea adicional:
 
 ```bash
 $ git diff
@@ -103,9 +104,9 @@ index abe1f83..6276304 100644
 +line eleven
  line 13
 ```
-The `@@` line tells you that the displayed content starts at line 8 and includes 5 lines (`8,5`) from the original file and then tells you that the displayed content also starts at line 8 and includes 5 lines (`8,4`) from the new file.
+La línea `@@` le dice que el contenido mostrado comienza en la línea 8 e incluye 5 líneas (`8,5`) del archivo original y luego le dice que el contenido mostrado también comienza en la línea 8 e incluye 5 líneas (` 8,4`) del nuevo archivo.
 
-A file with multiple changes would look like this:
+Un archivo con múltiples cambios se vería así:
 
 ```bash
 $ git diff
@@ -129,16 +130,16 @@ index abe1f83..a3fc0c5 100644
  line 13
 ```
 
-Here I can see that I changed line 5 and line 11.
+Aquí puedo ver que cambié la línea 5 y la línea 11.
 
-Many GUI-based tools will show you more information, such as highlighting the individual characters in a line that were changed. Since this varies from tool to tool, it won't be covered in detail here.
+Muchas herramientas basadas en GUI le mostrarán más información, como destacar los caracteres individuales en una línea que se modificaron. Dado que esto varía de una herramienta a otra, no se tratará en detalle aquí.
 
-## Resources
+## Recursos
 
-* [Git Basics - Recording Changes to the Repository](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
+* [Conceptos básicos de Git: registrar cambios en el repositorio](https://git-scm.com/book/es/v2/Git-Basics-Recording-Changes-to-the-Repository)
 
-<!-- begin auto-generated nav-links section -->
-| Previous | Up | Next |
-|:---------|:---:|-----:|
-| [Git Primary Workflow: Add, Commit, Push](./git_main_lifecycle.md) | [Using Git](./git_overview.md) | [Branching and Merging](./git_branch_merge.md) |
-<!-- end auto-generated section -->
+<!-- comience la sección de enlaces de navegación generados automáticamente -->
+| Anterior | Arriba | Siguiente |
+|: --------- |: ---: | -----: |
+| [Git Primary Workflow: Add, Commit, Push](./git_main_lifecycle.md) | [Usando Git](./git_Resumen.md) | [Branching and Merging](./git_branch_merge.md) |
+<!-- fin de la sección autogenerada -->

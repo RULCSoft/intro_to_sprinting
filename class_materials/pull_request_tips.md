@@ -1,10 +1,10 @@
 <!-- begin auto-generated title section --><!-- end auto-generated section -->
 
-## Time-box
+## Duración
 
-3-5 Minutes
+3-5 Minutos
 
-## Overview
+## Resumen
 
 When you submit a pull request the original project developer may:
 
@@ -22,7 +22,7 @@ The world of open source is rich in personalities and capabilities. Some develop
 
 As a participant in open source there are ways to improve the chance that our hard work will be understood, accepted and respected.
 
-## What to do
+## ¿Que hacer?
 
 * Be respectful
 * Be helpful
@@ -35,15 +35,15 @@ As a participant in open source there are ways to improve the chance that our ha
 * If you are working on a new feature OR making a correction that has not been tracked in the issues already, make a new issue and start the discussion to see if something in the development plan might override OR supercede your proposed changes.
 
 
-## The big picture
+## El panorama
 
 N/A
 
-## Deep dive
+## Sumérgete
 
 N/A
 
-## Resources
+## Recursos
 
 * [<resource name>](<resource url>)
 * [<resource name>](<resource url>)

@@ -1,53 +1,53 @@
-<!-- begin auto-generated title section -->
-# Student Preparation
-<!-- end auto-generated section -->
+<!-- comienza la sección de título generado automáticamente -->
+# Preparación del estudiante
+<!-- fin de la sección autogenerada -->
 
 
-## Time-box
+## Duracion
 
-N/A: these preparatory steps should be completed prior to the start of the course.
-
-
-## Overview
-
-This section is intended for the workshop **student**. It outlines what students should do to get the most out of the workshop.
-
-Not all contributors to open source projects are programmers, so this workshop makes no presumption that participants know how to program. Contributions to open source projects include documentation, design, graphics, user experience, etc. This workshop will enable programmers and non-programmers alike to contribute. 
-
-Having said that, the following will help with successfully completing this workshop:
-
-* a desire to learn and experiment
-* a basic understanding of the operation of a computer
-* a basic understanding of command-line tools 
+N / A: estos pasos preparatorios deben completarse antes del inicio del curso.
 
 
-## What to do
+## Visión de conjunto
 
-### Learning methods
+Esta sección está destinada para el taller ** estudiante **. Describe lo que los estudiantes deben hacer para aprovechar al máximo el taller.
 
-The workshop is about four hours and covers a lot of material (it may be broken into two days OR may be a single day event). Anything you can do to optimize your learning experience will be beneficial. Below are just some suggestions:
+No todos los contribuyentes a los proyectos de código abierto son programadores, por lo que este taller no presupone que los participantes sepan cómo programar. Las contribuciones a los proyectos de código abierto incluyen documentación, diseño, gráficos, experiencia del usuario, etc. Este taller permitirá a los programadores y no programadores contribuir por igual.
 
-* Ask questions. Lots of questions. 
-    * Take advantage of the fact that you are in a room with mentors to get your questions answered. 
-    * You will be given post-it notes. If you are nervous about asking a question in public: put up your red post-it to let a mentor know you are struggling. They will come to help. 
-* It will be recommended that you partner with someone... if you are comfortable with this, please take advantage of the chance to work with someone. Experience shows that both parties tend to benefit from this arrangement. 
-* Participate as much as you can, do the hands-on exercises, try the steps. 
-* Take notes.
+Una vez dicho esto, lo siguiente ayudará a completar con éxito este taller:
 
-
-### Using the command line
-
-In the hands-on practice session, you will be using command-line tools to contribute to a practice project, namely a calculator. If you don't feel comfortable with the command-line yet, see the Resources below for cheatsheets and references to a number of the most common commands:
+* un deseo de aprender y experimentar
+* una comprensión básica de la operación de una computadora
+* una comprensión básica de las herramientas de línea de comandos
 
 
+## Qué hacer
 
-## Resources
+### Métodos de aprendizaje
 
-* [Windows command-line](http://www.cs.columbia.edu/~sedwards/classes/2017/1102-spring/Command%20Prompt%20Cheatsheet.pdf) Windows commandline stuff
-* [Linux/Mac command-line](https://files.fosswire.com/2007/08/fwunixref.pdf) Linux commandline stuff
+El taller dura aproximadamente cuatro horas y cubre una gran cantidad de material (puede dividirse en dos días o puede ser un evento de un solo día). Cualquier cosa que pueda hacer para optimizar su experiencia de aprendizaje será beneficioso. A continuación hay solo algunas sugerencias:
 
-<!-- begin auto-generated nav-links section -->
-| Previous | Up | Next |
-|:---------|:---:|-----:|
-| [Instructor Preparation](./prereq_instructor.md) | [Course Overview and Preparation](./prereq_overview.md) | [Environment Set-up](./environment_overview.md) |
-<!-- end auto-generated section -->
+* Hacer preguntas. Muchas preguntas
+    * Aproveche el hecho de que está en una sala con mentores para obtener respuestas a sus preguntas.
+    * Se te darán notas post-it. Si está nervioso por hacer una pregunta en público: coloque su post it rojo para que un mentor sepa que tiene problemas. Ellos vendrán a ayudar.
+* Se le recomendará que se empareje con alguien ... si se siente cómodo con esto, aproveche la oportunidad de trabajar con alguien. La experiencia muestra que ambas partes tienden a beneficiarse.
+* Participa tanto como puedas, haz los ejercicios prácticos, prueba los pasos.
+* Toma nota.
+
+
+### Usando la línea de comando
+
+En la sesión de práctica, utilizará herramientas de línea de comandos para contribuir a un proyecto de práctica, es decir, una calculadora. Si todavía no se siente cómodo con la línea de comandos, consulte los Recursos a continuación para ver las hojas de referencia y las referencias a varios de los comandos más comunes:
+
+
+
+## Recursos
+
+* [Línea de comandos de Windows](http://www.cs.columbia.edu/~sedwards/classes/2017/1102-spring/Command%20Prompt%20Cheatsheet.pdf) Cosas de línea de comandos de Windows
+* [Linux / Mac línea de comandos](https://files.fosswire.com/2007/08/fwunixref.pdf) Linux línea de comandos cosas
+
+<!-- comience la sección de enlaces de navegación generados automáticamente -->
+| Anterior | Arriba | Siguiente |
+|: --------- |: ---: | -----: |
+| [Preparación del instructor](./prereq_instructor.md) | [Descripción general y preparación del curso](./prereq_Resumen.md) | [Configuración del entorno](./environment_Resumen.md) |
+<!-- fin de la sección autogenerada -->

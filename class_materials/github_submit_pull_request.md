@@ -3,19 +3,19 @@
 <!-- end auto-generated section -->
 
 
-## Time-box
+## Duración
 
-5 Minutes
+5 Minutos
 
 
-## Overview
+## Resumen
 
 Once you have a change OR changes pushed to your GitHub repo, you will want to share those changes with the owner of the upstream project repository.
 
-**NOTE**: This lesson presumes that your changes have been pushed to **your own** GitHub repo (instructions on how to do this were covered in a previous lesson: [Git Overview](./git_overview.md).
+**NOTE**: This lesson presumes that your changes have been pushed to **your own** GitHub repo (instructions on how to do this were covered in a previous lesson: [Git Resumen](./git_Resumen.md).
 
 
-## What to do
+## ¿Que hacer?
 
 1. Navigate to **your** GitHub repo in your browser.
 1. Above the file list on the left hand side, click on the **New Pull Request** button:<br>
@@ -26,7 +26,7 @@ Once you have a change OR changes pushed to your GitHub repo, you will want to s
 1. Before proceeding, you should check for the following items.
   * Confirm that the **base fork** is the original author's fork
   * Confirm that the **head fork** is your fork
-  * Confirm that GitHub says: **Able to merge** (IF there are conflicts, refer to the [Git Overview](./lesson_05_git_overview.md) for instructions on how to fix this problem.<br>
+  * Confirm that GitHub says: **Able to merge** (IF there are conflicts, refer to the [Git Resumen](./lesson_05_git_Resumen.md) for instructions on how to fix this problem.<br>
 ![Create Pull Request One](images/create-pull-request-one.png)
 1. Click on the **Create pull request** button
 1. Follow these steps to prep the Pull Request for creation:
@@ -40,7 +40,7 @@ Once you have a change OR changes pushed to your GitHub repo, you will want to s
 ![green sticky note](images/Sticky-Note-02-Green-300px.png)
 
 
-## The big picture
+## El panorama
 
 As shown here, your repo has changes that need to be advertised to the upstream owner. GitHub uses the concept of a Pull Request to do this.
 
@@ -63,17 +63,17 @@ Congratulations!
 
 ![Merge](images/github_merge.png)
 
-## Deep dive
+## Sumérgete
 
 N/A
 
 
-## Resources
+## Recursos
 
 * [GitHub - Contributing to a Project](https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project)
 
 <!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [GitHub Concepts](./github_concepts.md) | [Using GitHub](./github_overview.md) | [Table of Contents](./README.md) |
+| [GitHub Concepts](./github_concepts.md) | [Using GitHub](./github_Resumen.md) | [Table of Contents](./README.md) |
 <!-- end auto-generated section -->

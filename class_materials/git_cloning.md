@@ -1,108 +1,108 @@
-<!-- begin auto-generated title section -->
-# Cloning a Repository
-<!-- end auto-generated section -->
+<!-- comienza la sección de título generado automáticamente -->
+# Clonación de un repositorio
+<!-- fin de la sección autogenerada -->
 
 
-## Time-box
+## Duracion
 
-12 Minutes
+12 minutos
 
 
-## Overview
+## Resumen
 
-With a fork of the project in your GitHub repository, it's time to `git clone` the project to your local computer, so you have a local copy on your machine to do work on. The project we will start with is a project that doesn't have any code in it. It is a project full of famous poems. This is on purpose. We want to start off by
+Con un fork del proyecto en su repositorio de GitHub, es hora de `` clonar` el proyecto en su computadora local, por lo que tiene una copia local en su máquina para trabajar. El proyecto con el que comenzaremos es un proyecto que no tiene ningún código. Es un proyecto lleno de poemas famosos. Esto es a propósito. Queremos comenzar por
 
-* practicing **the mechanics** of making changes and propogating those changes to the owner
-WHILE
-* **minimizing the fear** of breaking anything AND
-* **avoiding** having to figure out the nuances of someone else's code
+* practicar ** la mecánica ** de hacer cambios y proponer esos cambios al dueño
+MIENTRAS
+* ** minimizamos el miedo ** de romper cualquier cosa Y
+* ** evitar ** tener que descubrir los matices del código de otra persona
 
-## What to do
+## Qué hacer
 
-Make sure you are in your project directory `mytest`. If you are not there already, you can use the `cd` command.
+Asegúrese de estar en su directorio de proyectos `mytest`. Si aún no estás allí, puedes usar el comando `cd`.
 
 ```bash
-$ cd /path/to/my/dev/directory/mytest
+$ cd / path / to / my / dev / directory / mytest
 ```
 
-Use the `git clone` command to clone a copy of the repository to the `mytest` directory.
+Use el comando `git clone` para clonar una copia del repositorio en el directorio` mytest`.
 
-**Note:** Since you are not Johnny Appleseed, **ENSURE** that you change `johnny_appleseed` to the name of **YOUR** account.
+** Nota: ** Como usted no es Johnny Appleseed, ** ASEGURE ** que cambie `johnny_appleseed` por el nombre de ** SU ** cuenta.
 
 ```bash
 $ git clone https://github.com/johnny_appleseed/intro_to_sprinting_codeless_project.git
 ```
 
-The `clone` command will create a new folder in the `mytest` directory. Change directories into the new folder, using the following command:
+El comando `clone` creará una nueva carpeta en el directorio` mytest`. Cambie los directorios a la nueva carpeta, usando el siguiente comando:
 
 ```bash
 $ cd intro_to_sprinting_codeless_project
 ```
-Next, add a reference to the **original repo (i.e. Chalmer's repo)** using the `git remote` command. The reference is often referred to as an `upstream`:
+A continuación, agregue una referencia al repositorio ** original (es decir, el repositorio de Chalmer) ** utilizando el comando `git remote`. La referencia a menudo se denomina 'ascendente':
 
 ```bash
 $ git remote add upstream https://github.com/chalmerlowe/intro_to_sprinting_codeless_project.git
 ```
 
-**Note:** You'll only do this **one time for each project** you want to work on.
+** Nota: ** Solo hará esto ** una vez por cada proyecto ** en el que desee trabajar.
 
-![green sticky note](images/Sticky-Note-02-Green-300px.png)
-
-
-## The big picture
-
-Before you can start adding to a project, you will need to clone the project to your local computer in your local working directory. In this picture, presume we are wanting to work on a the RPN Calculator Project. It has been forked to our GitHub repo and then cloned to our local hard drive. Copies of all the folders in the RPN Calculator are now available on our local computer.
-
-![cloning](images/git.png)
+! [nota adhesiva verde](images/Sticky-Note-02-Green-300px.png)
 
 
-## Deep dive
+## El panorama
 
-The following discussion will give you more insight into cloning repositories and what happens in the background during each of these commands.
+Antes de que pueda comenzar a agregar a un proyecto, deberá clonar el proyecto en su computadora local en su directorio de trabajo local. En esta imagen, supongamos que queremos trabajar en un proyecto de calculadora RPN. Se ha hecho fork a nuestro repositorio de GitHub y luego se ha clonado en nuestro disco duro local. Copias de todas las carpetas en la calculadora RPN ahora están disponibles en nuestra computadora local.
 
-**Note:** Since you are not Johnny Appleseed, **ENSURE** that you change `johnny_appleseed` to the name of **YOUR** account.
+! [clonación](images/git.png)
+
+
+## Sumérgete
+
+La siguiente discusión le dará más información sobre los repositorios de clonación y lo que ocurre en segundo plano durante cada uno de estos comandos.
+
+** Nota: ** Como usted no es Johnny Appleseed, ** ASEGURE ** que cambie `johnny_appleseed` por el nombre de ** SU ** cuenta.
 
 ```bash
 $ git clone https://github.com/johnny_appleseed/intro_to_sprinting_codeless_project.git
 ```
 
-The `clone` command creates a folder, which should be full of project files. `git` will automatically set up a link to a repository and will give it the default name: `origin` as a **remote** repository. In this case, it will point to **your** GitHub fork of the repository.
+El comando `clone` crea una carpeta, que debe estar llena de archivos de proyecto. `git` configurará automáticamente un enlace a un repositorio y le dará el nombre predeterminado:`origen` como un repositorio ** remoto **. En este caso, apuntará a ** su bifurcación de ** GitHub del repositorio.
 
-If you are curious, and want to confirm the link and the name of the remote repository, you can use the `git remote -v` command:
+Si tiene curiosidad y desea confirmar el enlace y el nombre del repositorio remoto, puede usar el comando `git remote -v`:
 
 ```bash
 $ git remote -v
-origin  https://github.com/johnny_appleseed/intro_to_sprinting_codeless_project (fetch)
-origin  https://github.com/johnny_appleseed/intro_to_sprinting_codeless_project (push)
+origen https://github.com/johnny_appleseed/intro_to_sprinting_codeless_project (fetch)
+origen https://github.com/johnny_appleseed/intro_to_sprinting_codeless_project (push)
 ```
-Here we see that for the `origin` remote repository, we have the ability to fetch data from it and push data to it. This ability to push data to the repository makes sense, since we own that repository.
+Aquí vemos que para el repositorio remoto `origin`, tenemos la capacidad de obtener datos de él y enviar datos a él. Esta capacidad de enviar datos al repositorio tiene sentido, ya que poseemos ese repositorio.
 
-As part of committing to open source projects, we want to get updates from the original repository (often called the `upstream` repository) whenever the project developer makes changes so that we can confirm that nothing we have done will interfere with any other work being done on the project.
+Como parte del compromiso con los proyectos de fuente abierta, queremos obtener actualizaciones del repositorio original (a menudo llamado el repositorio "ascendente") siempre que el desarrollador del proyecto realice cambios para que podamos confirmar que nada de lo que hayamos hecho interferirá con ningún otro trabajo. hecho en el proyecto.
 
-To enable `git` to find the `upstream` we use the following command:
+Para habilitar `git` para encontrar` upstream` usamos el siguiente comando:
 
 ```bash
 $ git remote add upstream https://github.com/chalmerlowe/intro_to_sprinting_codeless_project.git
 ```
 
-Again, if you are curious, you can confirm that `git` has stored the correct upstream repository with the command `git remote -v`. And now we see that `git` recognizes both our GitHub repo and the original project's repo.
+De nuevo, si tiene curiosidad, puede confirmar que `git` ha almacenado el repositorio de flujo ascendente correcto con el comando` git remote -v`. Y ahora vemos que `git` reconoce tanto nuestro repositorio de GitHub como el repositorio del proyecto original.
 
 ```bash
 $ git remote -v
-origin   https://github.com/johnny_appleseed/intro_to_sprinting_codeless_project (fetch)
-origin   https://github.com/johnny_appleseed/intro_to_sprinting_codeless_project (push)
-upstream https://github.com/chalmerlowe/intro_to_sprinting_codeless_project (fetch)
+origen https://github.com/johnny_appleseed/intro_to_sprinting_codeless_project (fetch)
+origen https://github.com/johnny_appleseed/intro_to_sprinting_codeless_project (push)
+en sentido ascendente https://github.com/chalmerlowe/intro_to_sprinting_codeless_project (fetch)
 ```
 
-**Note:** You'll only do this **one time for each project** you want to work on.
+** Nota: ** Solo hará esto ** una vez por cada proyecto ** en el que desee trabajar.
 
 
-## Resources
+## Recursos
 
-* [Git Basics - Getting a Git Repository](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository))
+* [Conceptos básicos de Git: obtener un repositorio de Git](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository))
 
-<!-- begin auto-generated nav-links section -->
-| Previous | Up | Next |
-|:---------|:---:|-----:|
-| [Git Concepts](./git_concepts.md) | [Using Git](./git_overview.md) | [Git Primary Workflow: Add, Commit, Push](./git_main_lifecycle.md) |
-<!-- end auto-generated section -->
+<!-- comience la sección de enlaces de navegación generados automáticamente -->
+| Anterior | Arriba | Siguiente |
+|: --------- |: ---: | -----: |
+| [Conceptos de Git](./git_concepts.md) | [Usando Git](./git_Resumen.md) | [Git Primary Workflow: Add, Commit, Push](./git_main_lifecycle.md) |
+<!-- fin de la sección autogenerada -->

@@ -155,7 +155,7 @@ AND then
 * Do it all over again...
 * And again...
 
-# Resources
+# Recursos
 
 [Reverse Polish Notation](https://en.wikipedia.org/wiki/Reverse_Polish_notation)
 

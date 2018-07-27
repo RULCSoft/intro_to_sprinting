@@ -1,63 +1,63 @@
-<!-- begin auto-generated title section -->
-# Instructor Preparation
-<!-- end auto-generated section -->
+<!-- comienza la sección de título generado automáticamente -->
+# Preparación del instructor
+<!-- fin de la sección autogenerada -->
 
 
-## Time-box
+## Duracion
 
-N/A: these preparatory steps should be completed prior to the start of the course.
-
-
-## Overview
-
-This section is intended for the workshop **instructor**. It outlines what the instructor should do to successfully execute this workshop.
-
-This workshop is intended to be as 'hands-on' as possible. While some lecture and demonstration is necessary, the focus is on having participants spend the majority of their time working on using the skills demonstrated. As such, the workshop focuses on the following
-
-* Short sections of lecture to elaborate on the what and the why
-* Short demos to show participants what to do and what to expect
-* Hands-on practice labs to enable participants to practice all the skills in a supportive environment
-* Side-saddle mentoring and question answering
-* Pair programming to enable participants to help each other
-* We strongly recommend the teaching practices suggested by Software Carpentry, including: sticky notes, minute cards, one up/one down, using their own machines, collaborative note taking, pair programming, and the peak rule. For details on these, see this [Software Carpentry](https://swcarpentry.github.io/instructor-training/15-practices/) article.
+N / A: estos pasos preparatorios deben completarse antes del inicio del curso.
 
 
-## What to do
+## Visión de conjunto
 
-### Fork and clone the repository we will be using for the workshop
+Esta sección está destinada para el taller ** instructor **. Describe qué debe hacer el instructor para ejecutar con éxito este taller.
 
-* Log-in to GitHub (create a GitHub account if you don't have one already) and navigate to [seawolf42/python-rpncalc](https://github.com/seawolf42/python-rpncalc)
-* Duplicate the project into a new project of your own (**do not** fork, you want a completely separate copy of the project)
-* For more information specific to the `rpncalc` project, see the [Instructor ReadMe](https://github.com/seawolf42/python-rpncalc/blob/master/INTRO_TO_SPRINTING_USAGE.md)
+Este taller está destinado a ser lo más práctico posible. Si bien es necesario realizar algunas clases y demostraciones, la atención se centra en que los participantes pasen la mayor parte del tiempo trabajando en el uso de las habilidades demostradas. Como tal, el taller se centra en lo siguiente
 
-### Other pre-workshop reminders
-
-* Secure a location with a projector, tables, chairs, whiteboard, etc.
-* Advertise the session and process registrations, waitlist, etc.
-* Plan for food and beverages (the workshop is ~four hours in length)
-* Set up an online collaboration where participants can share resources, ideas, etc. Etherpad
-* Acquire supplies: post-it notes, pencils, markers, etc
-
-### At the venue
-
-* Set up the projector, tables, chairs
-* Pick up any food/beverages
-* Distribute post-it notes, pencils to each student
-
-### Post workshop follow-up
-
-* Thank the attendees for their participation
-* Issue a post-workshop survey (i.e. using Surveymonkey.com OR Google forms)
-* If you have suggestions OR found something that just doesn't work: submit an issue to the repo [Intro to Sprinting Workshop](https://github.com/chalmerlowe/intro_to_sprinting/issues/) OR 
-* Better yet, work with your students to have them submit a Pull Request with suggestions or improvements.
+* Breves secciones de la conferencia para elaborar sobre el qué y el por qué
+* Demostraciones cortas para mostrar a los participantes qué hacer y qué esperar
+* Prácticas de laboratorio para que los participantes puedan practicar todas las habilidades en un entorno de apoyo.
+* Tutoría paralela y respuesta a preguntas
+* Programacion en parejas para permitir que los participantes se ayuden entre sí
+* Recomendamos encarecidamente las prácticas de enseñanza sugeridas por Software Carpentry, que incluyen: notas adhesivas, tarjetas de minutos, una arriba / una abajo, usar sus propias máquinas, toma de notas en colaboración, programación de pares y la regla pico. Para obtener detalles sobre estos, consulte este artículo [Software Carpentry](https://swcarpentry.github.io/instructor-training/15-practices/).
 
 
-## Resources
+## Qué hacer
 
-N/A
+### Fork y clonar el repositorio que usaremos para el taller
 
-<!-- begin auto-generated nav-links section -->
-| Previous | Up | Next |
-|:---------|:---:|-----:|
-| [Course Overview and Preparation](./prereq_overview.md) | [Course Overview and Preparation](./prereq_overview.md) | [Student Preparation](./prereq_student.md) |
-<!-- end auto-generated section -->
+* Inicie sesión en GitHub (cree una cuenta de GitHub si aún no tiene una) y vaya a [seawolf42 / python-rpncalc](https://github.com/seawolf42/python-rpncalc)
+* Duplica el proyecto en un nuevo proyecto propio (** NO HAGAS UN FORK **, quieres una copia completamente separada del proyecto)
+* Para obtener más información específica del proyecto `rpncalc`, consulte el [Readme del instructor(https://github.com/seawolf42/python-rpncalc/blob/master/INTRO_TO_SPRINTING_USAGE.md)
+
+### Otros recordatorios previos al taller
+
+* Asegure una ubicación con un proyector, mesas, sillas, pizarra, etc.
+* Anunciar la sesión y procesar registros, listas de espera, etc.
+* Plan para alimentos y bebidas (el taller tiene ~ cuatro horas de duración)
+* Establezca una colaboración en línea donde los participantes puedan compartir recursos, ideas, etc. Etherpad
+* Adquirir suministros: notas post-it, lápices, marcadores, etc.
+
+### En el lugar
+
+* Configurar el proyector, mesas, sillas
+* Recoge cualquier comida / bebida
+* Distribuya notas post-it, lápices a cada estudiante
+
+### Seguimiento posterior al taller
+
+* Agradecer a los asistentes por su participación
+* Emitir una encuesta posterior al taller (es decir, utilizando Surveymonkey.com o formularios de Google)
+* Si tiene sugerencias o encontró algo que simplemente no funciona: envíe un problema al repositorio [Introducción al taller de Sprint](https://github.com/chalmerlowe/intro_to_sprinting/issues/) o
+* Mejor aún, trabaje con sus estudiantes para que presenten un Pull request con sugerencias o mejoras.
+
+
+## Recursos
+
+N / A
+
+<!-- comience la sección de enlaces de navegación generados automáticamente -->
+| Anterior | Arriba | Siguiente |
+|: --------- |: ---: | -----: |
+| [Descripción general y preparación del curso](./prereq_Resumen.md) | [Descripción general y preparación del curso](./prereq_Resumen.md) | [Preparación del alumno](./prereq_student.md) |
+<!-- fin de la sección autogenerada -->

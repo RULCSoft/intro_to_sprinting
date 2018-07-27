@@ -1,62 +1,62 @@
-<!-- begin auto-generated title section -->
-# Setting up Git
-<!-- end auto-generated section -->
+<!-- comienza la sección de título generado automáticamente -->
+# Configurando Git
+<!-- fin de la sección autogenerada -->
 
 
-## Time-box
+## Duracion
 
-5 Minutes
-
-
-## Overview
-
-When you contribute to a project, you'll want your name associated with your contributions. Git will automatically attach your name and email address to every commit you make, if you tell it how.
+5 minutos
 
 
-## What to do
+## Resumen
 
-Run the following commands on the command-line to set two global configurations: your name and your email address. Since you are not Johnny Appleseed, please change the commands accordingly.
+Cuando contribuyas a un proyecto, querrás que tu nombre esté asociado a tus contribuciones. Git adjuntará automáticamente su nombre y dirección de correo electrónico a cada confirmación que realice, si le dice cómo.
 
-```bash
+
+## Qué hacer
+
+Ejecute los siguientes comandos en la línea de comandos para establecer dos configuraciones globales: su nombre y su dirección de correo electrónico. Como no eres Johnny Appleseed, cambia los comandos en consecuencia.
+
+`` `bash
 $ git config --global user.name "Johnny Appleseed"
-$ git config --global user.email "johnny.appleseed@example.com"
-```
+$ git config --global usuario.email "johnny.appleseed@example.com"
+`` `
 
-## Done with commands for now!
+## Hecho con comandos por ahora!
 
-If you (and your partner, if you're working in pairs) are done, then you can put your green sticky up! This is how we know you're done.
+Si usted (y su pareja, si está trabajando en parejas) han terminado, ¡puede poner su sticker verde! Así es como sabemos que terminaste.
 
-![green sticky note](images/Sticky-Note-02-Green-300px.png)
+! [nota adhesiva verde](images/Sticky-Note-02-Green-300px.png)
 
-## The big picture
+## El panorama
 
-These are the two fundamental configurations needed to use `git`. 
+Estas son las dos configuraciones fundamentales necesarias para usar `git`.
 
-**Note:** The `--global` option applies these settings to all `git` projects on your machine  
-* You only need to run this **once per computer**.  
-* To change a setting, simply re-run the command.  
-* To override these settings for a specific project (e.g., a work project versus a personal project), simply run the command while in that project directory, and leave out the `--global` option.
+** Nota: ** La opción `--global` aplica estas configuraciones a todos los proyectos` git` en su máquina
+* Solo necesita ejecutar esto ** una vez por computadora **.
+* Para cambiar una configuración, simplemente vuelva a ejecutar el comando.
+* Para anular estas configuraciones para un proyecto específico (por ejemplo, un proyecto de trabajo versus un proyecto personal), simplemente ejecute el comando mientras esté en ese directorio de proyecto, y omita la opción `--global`.
 
-Later sections of the workshop will go into greater depth on using `git`.
+Las secciones posteriores del taller profundizarán en el uso de `git`.
 
-## Deep dive
+## Sumérgete
 
-`git` is a command-line tool, and as such you will be doing a lot of typing when you work with it. There are many configurations that can be set for `git` but they are outside the scope of this workshop. 
+`git` es una herramienta de línea de comandos y, como tal, estará escribiendo mucho cuando trabaje con ella. Hay muchas configuraciones que se pueden configurar para `git` pero están fuera del alcance de este taller.
 
-Because `git` is a command-line tool, if you need a primer for the command line, check out the . If you just need a quick reference, check out the .
+Debido a que `git` es una herramienta de línea de comandos, si necesita un primer para la línea de comando, consulte el. Si solo necesita una referencia rápida, consulte el .
 
 
-## Resources
+## Recursos
 
-* [Getting Started - First-Time Git Setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
-* See the lesson [Git Concepts](./git_concepts.md) for a more comprehensive list of resources related to `git`.
-* Free [Learn the command-line](https://www.codecademy.com/learn/learn-the-command-line) course on Codecademy
-* Cheatsheet for [Linux command-line commands](https://itsfoss.com/linux-commands-cheat-sheets/)
-* Cheatsheet for Windows command-line commands: 
-* Cheatsheet for Mac command-line commands:
+* [Primeros pasos - Configuración de Git por primera vez](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
+* Consulte la lección [Conceptos de Git](./git_concepts.md) para obtener una lista más completa de recursos relacionados con `git`.
+* Curso gratuito [Aprenda la línea de comando](https://www.codecademy.com/learn/learn-the-command-line) en Codecademy
+* Cheatsheet para [comandos de línea de comandos de Linux](https://itsfoss.com/linux-commands-cheat-sheets/)
+* Cheatsheet para comandos de línea de comandos de Windows:
+* Cheatsheet para comandos de línea de comandos de Mac:
 
-<!-- begin auto-generated nav-links section -->
-| Previous | Up | Next |
-|:---------|:---:|-----:|
-| [Setting up GitHub and Forking a Repository](./github_setup.md) | [Environment Set-up](./environment_overview.md) | [Using Git](./git_overview.md) |
-<!-- end auto-generated section -->
+<!-- comience la sección de enlaces de navegación generados automáticamente -->
+| Anterior | Arriba | Siguiente |
+|: --------- |: ---: | -----: |
+| [Configuración de GitHub y bifurcación de un repositorio](./github_setup.md) | [Configuración del entorno](./environment_Resumen.md) | [Usando Git](./git_Resumen.md) |
+<!-- fin de la sección autogenerada -->

@@ -1,26 +1,26 @@
 <!-- begin auto-generated title section --><!-- end auto-generated section -->
 
-## Time-box
+## Duración
 
-<XX> Minutes
+<XX> Minutos
 
-## Overview
+## Resumen
 
 <put single paragraph here>
 
-## What to do
+## ¿Que hacer?
 
 <steps to execute go here, no details, just raw steps>
 
-## The big picture
+## El panorama
 
 <high-level concepts that can be described in a few mintues>
 
-## Deep dive
+## Sumérgete
 
 <detailed explanations go here, with h3/h4 subsecitons if necessary>
 
-## Resources
+## Recursos
 
 * [<resource name>](<resource url>)
 * [<resource name>](<resource url>)

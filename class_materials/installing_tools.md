@@ -1,130 +1,120 @@
-<!-- begin auto-generated title section -->
-# Installing the Software You'll Need
-<!-- end auto-generated section -->
+<!-- comienza la sección de título generado automáticamente -->
+# Instalación del software que necesitará
+<!-- fin de la sección autogenerada -->
 
 
-## Time-box
+## Duracion
 
-15 Minutes
+15 minutos
 
 
-## Overview
+## Resumen
 
-Collaborating on sprints generally requires the use of software tools to truly be effective and efficient. For this workshop, we will use `git` and `miniconda (conda)` to practice our skills. 
+La colaboración en sprints generalmente requiere el uso de herramientas de software para ser realmente eficaz y eficiente. Para este taller, usaremos `git` y` miniconda (conda) `para practicar nuestras habilidades.
 
-### Objectives
+### Objetivos
 
-* Download the tools
-* Install the tools
-* Test for successful installation
-* Review the purpose of the tools
+* Descargar las herramientas
+* Instalar las herramientas
+* Prueba para una instalación exitosa
+* Revise el propósito de las herramientas
 
-## What to do
+## Qué hacer
 
-### Step One: Download and Install `git`
+### Paso uno: Descarga e instala `git`
 
-First check to see if `git` is already installed on your computer.
+Primero verifique si `git` ya está instalado en su computadora.
 
-Open a command prompt/terminal and type `git`
+Abra un símbolo del sistema / terminal y escriba `git`
 
-You'll see one of these two things.
+Verás una de estas dos cosas.
 
-- **A whole bunch of text**, which is a document explaining some of the most common `git` commands. If you see this, jump to the instructions on [downloading and installing Conda.](#download-and-install-conda) because git is already installed.
+- ** Un montón de texto **, que es un documento que explica algunos de los comandos `git` más comunes. Si ve esto, vaya a las instrucciones sobre [descargar e instalar Conda.](#Download-and-install-conda) porque git ya está instalado.
 
-- `git: Command not found.` This is good! It means that you **are going to follow our instructions to install git!** Keep reading.
+- `git: Comando no encontrado. ¡Esto es bueno! Significa que ** seguirás nuestras instrucciones para instalar git! ** Sigue leyendo.
 
-#### <img src="images/windows_icon.jpg" width="24" height="24"> Windows 
+#### <img src = "images / windows_icon.jpg" width = "24" height = "24"> Windows
 
-1. Download the [git installer](https://git-scm.com/downloads) (**NOTE:** If you are unsure if you need the 32 or 64-bit version, you can [follow these steps](https://support.microsoft.com/en-us/help/15056/windows-7-32-64-bit-faq))
+1. Descargue el [instalador git](https://git-scm.com/downloads) (** NOTA: ** Si no está seguro de si necesita la versión de 32 o 64 bits, puede [siga estos pasos](https://support.microsoft.com/en-us/help/15056/windows-7-32-64-bit-faq))
 
-3. Run the .exe file that you downloaded and follow the instructions.
+3. Ejecute el archivo .exe que descargó y siga las instrucciones.
 
-#### <img src = "images/mac_icon.png" width="24" height="24"> Mac OS 
+#### <img src = "images / mac_icon.png" width = "24" height = "24"> Mac OS
 
-1. Download the [git installer](https://git-scm.com/downloads)
+1. Descargue el [instalador git](https://git-scm.com/downloads)
 
-2. Open the .dmg file that you downloaded. Run the installer inside and follow the instructions.
+2. Abra el archivo .dmg que descargó. Ejecute el instalador dentro y siga las instrucciones.
 
-##### Alternately, install using homebrew
+##### Alternativamente, instale usando homebrew
 
-Many Mac users use [homebrew](http://brew.sh/) to install programs.
+Muchos usuarios de Mac usan [homebrew](http://brew.sh/) para instalar programas.
 
-```bash
-brew install git
-```
+`` `bash
+brew instalar git
+`` `
 
-#### <img src = "images/linux_icon.jpg" width="24" height="24"> Linux 
+#### <img src = "images / linux_icon.jpg" width = "24" height = "24"> Linux
 
-If you are running Linux, there is a good chance that you already have `git` installed. If it isn't, install it by typing one of these commands into your command prompt.
+Si está ejecutando Linux, es muy probable que ya tenga `git` instalado. Si no es así, instálelo escribiendo uno de estos comandos en el símbolo del sistema.
 
-**Red Hat-based** systems (Red Hat, Centos, Fedora) use:
+** Los sistemas basados ​​en Red Hat ** (Red Hat, Centos, Fedora) usan:
 
-```bash
+`` `bash
 $ sudo yum install git-all
-```
+`` `
 
-**Debian-based** systems (Ubuntu, Debian) use:
+** Los sistemas ** basados ​​en Debian (Ubuntu, Debian) usan:
 
-```bash
+`` `bash
 $ sudo apt-get install git-all
-```
+`` `
 
-### Step Two: Confirm your `git` install
+### Paso dos: confirma tu instalación de `git`
 
-In a command prompt type `git config`. If `git` is installed properly, you will see text explaining some of the common configuration options for `git`.
+En un símbolo del sistema, escriba `git config`. Si `git` está instalado correctamente, verá texto que explica algunas de las opciones de configuración comunes para` git`.
 
-### Step Three: Download and Install `conda`
+### Paso tres: Descarga e instala `conda`
 
-Follow the instructions for your operating system in the [miniconda quickstart guide](http://conda.pydata.org/docs/install/quick.html). Use a **Python 3** version of conda.
+Siga las instrucciones para su sistema operativo en la [guía de inicio rápido de miniconda](http://conda.pydata.org/docs/install/quick.html). Use una versión ** de Python 3 ** de conda.
 
-### Step Four: Confirm your `conda` install
+### Paso cuatro: confirma tu instalación `conda`
 
-In a command prompt type `conda list`. If `conda` is installed properly, you will see a summary of the packages installed by `conda`.
+En un símbolo del sistema, escriba `conda list`. Si `conda` está instalado correctamente, verá un resumen de los paquetes instalados por` conda`.
 
-### Troubleshooting
+### Solución de problemas
 
-Here's a list of error messages & how to fix them.
+Aquí hay una lista de mensajes de error y cómo solucionarlos.
 
-- `conda: Command not found.` This means you need to quit & relaunch your terminal. If that doesn't fix it, ask for help. ([Details here.](https://unix.stackexchange.com/questions/86012/what-is-the-purpose-of-the-hash-command))
+- `conda: comando no encontrado. Esto significa que debe cerrar y reiniciar su terminal. Si eso no lo soluciona, solicite ayuda. ([Detalles aquí.] (Https://unix.stackexchange.com/questions/86012/what-is-the-purpose-of-the-hash-command))
 
-## Done with commands for now!
+## Hecho con comandos por ahora!
 
-If you (if you're working in pairs, you and your partner) are done, then now you can put your green sticky up! This is how we know you're done with the commands.
+Si (si trabajas en parejas, tú y tu pareja) ya terminaron, ¡ahora puedes poner tu verde pegajoso! Así es como sabemos que terminaste con los comandos.
 
-![green sticky note](images/Sticky-Note-02-Green-300px.png)
+! [nota adhesiva verde](images/Sticky-Note-02-Green-300px.png)
 
-If you like reading, you can also keep reading this page.
+Si le gusta leer, también puede seguir leyendo esta página.
 
-## The big picture
+## El panorama
 
-### What is `git` and why did we install it?
+### ¿Qué es `git` y por qué lo instalamos?
 
-`git` is a distributed version control system for managing files. It allows multiple people to work on collections of files (usually source code) and then easily *merge* other's work so everyone can have the most up to date version of the project. A later lesson will provide more details on `git`.
+`git` es un sistema de control de versiones distribuidas para administrar archivos. Permite que varias personas trabajen en colecciones de archivos (generalmente código fuente) y luego * fusionar fácilmente * el trabajo de otros para que todos puedan tener la versión más actualizada del proyecto. Una lección posterior proporcionará más detalles sobre `git`.
 
-### What is miniconda (`conda`) and why did we install it?
+### ¿Qué es miniconda (`conda`) y por qué lo instalamos?
 
-Miniconda contains the `conda` package manager and `Python`. `conda` is language agnostic, so you can also use it to support delivering this workshop with programming languages besides `Python`. Once miniconda is installed, you will be able to: 
+Miniconda contiene el administrador de paquetes `conda` y` Python`. `conda` es independiente del idioma, por lo que también puede usarlo para respaldar la entrega de este taller con lenguajes de programación además de` Python`. Una vez que esté instalado Miniconda, podrá:
 
-* create virtual environments and 
-* manage separate installations of `Python` 
-* manage a large number of Python packages/libraries
+* crear entornos virtuales y
+* administrar instalaciones separadas de `Python`
+* administrar una gran cantidad de paquetes / bibliotecas de Python
 
-Whenever you work on a new project, you should create a separate environment for that project. `conda` lets you do this easily and efficiently. A later lesson will provide more details on both virtual environments and the use of the `conda` package manager.
+Siempre que trabaje en un nuevo proyecto, debe crear un entorno separado para ese proyecto. `conda` te permite hacer esto de manera fácil y eficiente. Una lección posterior proporcionará más detalles sobre los entornos virtuales y el uso del administrador de paquetes `conda`.
 
-**NOTE** For this tutorial, we'll use `conda`. There are other tools that accomplish similar goals and work in similar ways, such as `venv`, `pip`, and `virtualenv`. During PyCon Sprints, make sure to use whatever virtual environment tool your project maintainer suggests. See Resources for more info.
+** NOTA ** Para este tutorial, usaremos `conda`. Existen otras herramientas que logran objetivos similares y funcionan de manera similar, como `venv`,` pip`, y `virtualenv`. Durante PyCon Sprints, asegúrese de usar cualquier herramienta de entorno virtual que sugiera el mantenedor de su proyecto. Ver Recursos para más información.
 
-## Resources
+## Recursos
 
-* [Using conda](http://conda.pydata.org/docs/using/index.html): A tutorial on how to use `conda`
+* [Usando conda](http://conda.pydata.org/docs/using/index.html): Un tutorial sobre cómo usar `conda`
 
-* [conda cheatsheet](https://conda.io/docs/_downloads/conda-cheatsheet.pdf): A cheatsheet of the most common `conda` commands
-
-* [Python's `venv` and `virtualenv` can also create virtual environments.](http://stackoverflow.com/questions/41573587/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrappe)
-
-* [`pip` is Python's package manager.](https://en.wikipedia.org/wiki/Pip_(package_manager))
-
-<!-- begin auto-generated nav-links section -->
-| Previous | Up | Next |
-|:---------|:---:|-----:|
-| [Environment Set-up](./environment_overview.md) | [Environment Set-up](./environment_overview.md) | [Setting up Virtual Environments](./virtual_environments.md) |
-<!-- end auto-generated section -->
+* [conda cheatsheet](https://conda.io/docs/_downloads/c

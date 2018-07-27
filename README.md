@@ -1,63 +1,65 @@
-# Intro to Sprinting
+	 	 	 	 	
+# Intro a Sprinting
 
-This project is designed to help beginners learn AND practice the basic skills necessary to contribute to open source projects. While it is designed to be delivered as a workshop for a group of students, it can also be used individually as self-study.
+Este proyecto está diseñado para ayudar a principiantes a aprender y practicar las habilidades básicas necesarias para contribuir a proyectos open source. Si bien está diseñado para ser entregado como taller para un grupo de estudiantes, también puede ser usado individualmente como auto estudio.
 
-It can be used in multiple ways:
-
-* as a lead-in for open source sprints at programming conferences
-* as class material for teachers
-* as preparation for hackathons OR group projects
-* as a resource for open source project leaders
-
-# Why an introduction to sprinting?
-
-At many programming conferences, time is set aside for developers to come together to work on open source projects (called sprints or sprinting). Many project leaders welcome new developers of all skill levels to contribute. This works fine if a newcomer has contributed to a project before and has an understanding of the tools and processes. 
-
-The struggle for both the project maintainer and the newcomer has been that beginners often have a very steep learning curve and need to learn too many new tools and new skills before they can successfully contribute. 
-
-They often turn to the sprint leader for help and mentoring on the basics of "contributing to open source". Things like these fundamental skills, most of which are not specific to a given project.
-
-* setting up virtual environments
-* using version control software,
-* interacting with version control repositories (repos)
-* process of submitting patches and contributions
-
-They are often limited by the sprint leader's availability to help them learn. The sprint leader becomes, through no fault of their own, a bottleneck. The beginners often spend so much time figuring out the basics that they can't really get into the project sufficiently to understand nuances of the bugs they want to fix OR the contributions they want to add. Due to limitations on time, new contributors often leave the sprints without having successfully contributed to the project, at all. Furthermore, once new contributors arrive at home, they are often so removed from the project and the mentorship opportunity, that they may not be able to pick up from where they left off.
-
-This project aims to fix some of these problems by having materials and instructions available via group/classroom study AND self-study so that new contributors can learn the basics before they ever sit down with their sprint leader and can start focusing more on the project and less on the learning curve. In addition, should they run into a problem, they have a ready resource to return to, thus taking some of the burden off the sprint lead.
-
-# Overview
-
-This workshop provides a high-level overview of the steps, tools and tradecraft needed to introduce beginners to open source sprints. The workshop provides lecture/demo **AND** lots of hands-on in the following areas.
-
-* Understanding, creating, and using virtual environments
-* Using version control tools such as git and github
-* Hands-on: Creating additions and changes to an open source project
-* Getting those changes incorporated into the project via pull requests
-
-In addition, the overview will include numerous resources for self-study.
-
-This project is based on anaconda, git, and github for Python sprints.
-This project can be modified for the needs of other sprints and other languages.
-
-# Prerequisites
-
-Beginners will need to already know the following:
-
-* How to edit plain text files on their computer.
-
-It helps if a beginner knows:
-
-* The basics of using the command line (commands to change directories, list files, etc). 
-
-For help with the above, see the [Student Preparation instructions](https://github.com/chalmerlowe/intro_to_sprinting/blob/master/class_materials/prereq_student.md)
-
-Beginners will NOT need to have in depth knowledge on the following:
-
-1. Programming OR Python (many contributors to open source never write code: they help with design, documentation, etc)
-2. Any specific open source project
+Puede ser usado de múltiples maneras:
 
 
-| Next |
-|:---------|
-| [Table of Contents](./class_materials/README.md) |
+* Como guía para sprints open source en conferencias de programación
+* Como material de clases para maestros
+* Como preparación para hackathons o proyectos de grupos
+* Como recurso para líderes de proyectos open source
+
+# Por que una introducción al Sprinting?
+
+En muchas conferencias de programación, se reserva tiempo para que los desarrolladores se reúnan para trabajar en proyectos de código abierto (llamados sprints o sprinting). Muchos líderes de proyectos dan la bienvenida a nuevos desarrolladores de todos los niveles de habilidad para contribuir. Esto funciona bien si un recién llegado ha contribuido anteriormente a un proyecto y tiene una comprensión de las herramientas y los procesos.
+
+La lucha tanto para el mantenedor del proyecto como para el recién llegado ha sido que los principiantes a menudo tienen una curva de aprendizaje muy empinada y necesitan aprender demasiadas herramientas nuevas y nuevas habilidades antes de poder contribuir con éxito.
+
+A menudo recurren al líder del sprint en busca de ayuda y de tutoría sobre los conceptos básicos de "contribuir al código abierto". Cosas como estas habilidades fundamentales, la mayoría de las cuales no son específicas de un proyecto determinado.
+
+* Configurar ambientes virtuales
+* Usar software de control de versiones
+* Interactuar con repositorios de control de versiones (repos)
+* Proceso de enviar parches y contribuciones
+
+A menudo están limitados por la disponibilidad del líder de Sprint para ayudarlos a aprender. El líder de Sprint se convierte, sin culpa propia, en un cuello de botella. Los principiantes a menudo pasan tanto tiempo tratando de descubrir lo básico que realmente no pueden entrar en el proyecto lo suficiente como para comprender los matices de los errores que quieren corregir o las contribuciones que desean agregar. Debido a limitaciones de tiempo, los nuevos contribuyentes a menudo dejan los sprints sin haber contribuido con éxito al proyecto, en absoluto. Además, una vez que los nuevos contribuyentes llegan a casa, a menudo se les remueve del proyecto y de la oportunidad de tutoría, ya que es posible que no puedan retomar desde donde lo dejaron.
+
+Este proyecto tiene como objetivo solucionar algunos de estos problemas al tener materiales e instrucciones disponibles a través del estudio grupal / en el aula y el autoaprendizaje para que los nuevos contribuyentes puedan aprender los conceptos básicos antes de sentarse con su líder y puedan comenzar a enfocarse más en el proyecto y menos en la curva de aprendizaje. Además, si se topan con un problema, tienen un recurso listo que retomar, lo que les quitará parte de la carga al sprint.
+
+# Resumen
+
+Este taller ofrece una descripción general de alto nivel de los pasos, las herramientas y las técnicas necesarias para presentar a los principiantes los sprints open source. El taller ofrece lecciones / demostraciones ** Y ** muchas prácticas en las siguientes áreas.
+
+* Comprender, crear y usar entornos virtuales
+* Usar herramientas de control de versiones como git y github
+* Hands-on: creación de adiciones y cambios a un proyecto open source
+* Obtener esos cambios incorporados en el proyecto a través de Pull requests
+
+Además, la descripción general incluirá numerosos recursos para el autoaprendizaje.
+
+Este proyecto está basado en anaconda, git y github para Python sprints.
+Este proyecto se puede modificar para las necesidades de otros sprints y otros idiomas.
+
+# Pre-requisitos
+
+Los principiantes necesitarán saber lo siguiente:
+
+* Cómo editar archivos de texto sin formato en su computadora.
+
+Ayuda si un principiante sabe:
+
+* Los principios básicos del uso de la línea de comandos (comandos para cambiar directorios, listar archivos, etc.).
+
+Para obtener ayuda con lo anterior, consulte las [Instrucciones de preparación del alumno](https://github.com/chalmerlowe/intro_to_sprinting/blob/master/class_materials/prereq_student.md)
+
+Los principiantes NO necesitarán tener un conocimiento profundo sobre lo siguiente:
+
+1. Programación o Python (muchos contribuyentes open source nunca escriben código: ayudan con el diseño, la documentación, etc.)
+2. Cualquier proyecto de código abierto específico
+
+
+| Siguiente |
+|: --------- |
+| [Tabla de contenido](./class_materials/README.md)|

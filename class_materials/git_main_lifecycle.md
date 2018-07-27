@@ -1,64 +1,64 @@
-<!-- begin auto-generated title section -->
-# Git Primary Workflow: Add, Commit, Push
-<!-- end auto-generated section -->
+<!-- comienza la sección de título generado automáticamente -->
+# Git flujo de trabajo primario: Add, Commit, Push
+<!-- fin de la sección autogenerada -->
 
 
-## Time-box
+## Duracion
 
-10 Minutes
+10 minutos
 
 
-## Overview
+## Resumen
 
-In this section, we will cover a number of commands, but the principles are fairly straightforward:
+En esta sección, cubriremos una serie de comandos, pero los principios son bastante sencillos:
 
-* Determine the **status** of your local directory
-* **Add** a file to the staging area
-* **Commit** that file for the historical record
-* **Push** the file to your GitHub repo
+* Determine el ** estado ** de su directorio local
+* ** Agregar ** un archivo al área de preparación
+* ** Commit ** ese archivo para el registro histórico
+* ** Presione ** el archivo a su repositorio de GitHub
 
-## What to do
+## Qué hacer
 
-This portion of the workshop presumes the following:
+Esta parte del taller supone lo siguiente:
 
-1. your `mytest` virtualenv is **active**
-1. you have **forked** the [Codeless Project](https://github.com/chalmerlowe/intro_to_sprinting_codeless_project/) to your repo
-1. you have **cloned** the Codeless Project repo into your local `mytest` directory
-1. you are in the `intro_to_sprinting_codeless_project` directory on your commandline
+1. tu virtualenv `mytest` está ** activo **
+1. Has ** hecho fork ** del [Proyecto sin código] (https://github.com/chalmerlowe/intro_to_sprinting_codeless_project/) a tu repositorio
+1. has ** clonado ** el repositorio de Proyecto sin código en tu directorio local "mytest"
+1. estás en el directorio `intro_to_sprinting_codeless_project` en tu línea de comandos
 
-With a freshly cloned repo, we can make some edits and revisions to the Codeless Project, which is full of poetry files.
+Con un repositorio recién clonado, podemos hacer algunas ediciones y revisiones del Proyecto sin código, que está lleno de archivos de poesía.
 
-* If you type `ls` (or `dir` in Windows) you should see multiple files.
+* Si escribe `ls` (o` dir` en Windows), debería ver varios archivos.
 
-### Status check
-At any time, we can check the status of our `git` repository. Before we change any files, let's check to see what the status of our repo is, by using `git status`
+### Comprobación del estado
+En cualquier momento, podemos verificar el estado de nuestro repositorio `git`. Antes de cambiar cualquier archivo, vamos a verificar cuál es el estado de nuestro repositorio, usando `git status`
 
-```bash
+`` `bash
 $ git status
-```
-**NOTE**: Full details on the messages that appear are spelled out below in the **Big Picture/Deep Dive** discussion.
+`` `
+** NOTA **: todos los detalles sobre los mensajes que aparecen se detallan a continuación en la discusión ** Big Picture / Sumérgete **.
 
-**NOTE**: Using `git status` is completely **optional**, but strongly recommended.
+** NOTA **: El uso de `git status` es completamente ** opcional **, pero muy recomendado.
 
 
-### Pick a file and edit it.
+### Elige un archivo y edítalo.
 
-1) Open your favorite text editor or integrated development environment (IDE).
+1) Abra su editor de texto favorito o entorno de desarrollo integrado (IDE).
 
-2) Select a file to edit and open the file in your editor/IDE.
+2) Seleccione un archivo para editar y abra el archivo en su editor / IDE.
 
-**NOTE**: this workshop is intended for all audiences (and may include youth), so in making the following changes, please avoid anything inappropriate OR not safe for work (NSFW). **Play like a champion**.
+** NOTA **: este taller está dirigido a todos los públicos (y puede incluir a los jóvenes), por lo que al realizar los siguientes cambios, evite todo lo inapropiado o que no sea seguro para el trabajo (NSFW). ** Juega como un campeón **.
 
-2) Make a simple change:
+2) Haz un cambio simple:
 
-* Change any line, word or phrase
-* Add a new line
-* Delete a line
+* Cambiar cualquier línea, palabra o frase
+* Agregue una nueva línea
+* Eliminar una línea
 
-3) Save the file.
+3) Guarde el archivo.
 
-### Status Check
-Before we go further, it is often useful to again check the status using `git status`. We should notice that a line in the output identifies that a text file has been modified, but has not been staged.
+### Comprobación del estado
+Antes de ir más allá, a menudo es útil volver a verificar el estado usando `git status`. Deberíamos observar que una línea en el resultado identifica que un archivo de texto ha sido modificado, pero no ha sido organizado.
 
 ```bash
 $ git status
@@ -66,19 +66,19 @@ $ git status
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
-
-	modified:   johnny_appleseed.txt
+  modified: johnny_appleseed.txt
 
 ```
-### Add the file to the staging area
-`git add` the file **you** edited, to the git staging area using the `git add` command. **ENSURE** you replace `johnny_appleseed.txt` with the actual name of the file.
 
-```bash
+### Agregar el archivo
+`git add` el archivo ** editado **, al área de preparación de git usando el comando` git add`. ** ASEGURE ** reemplaza `johnny_appleseed.txt` con el nombre real del archivo.
+
+`` `bash
 $ git add johnny_appleseed.txt
-```
+`` `
 
-### Status check
-Take a look at things now that the file has been staged, again using `git status`... We should notice that a line in the output identifies that a text file has been modified AND is now ready to be committed.
+### Comprobación del estado
+Echa un vistazo a las cosas ahora que el archivo se ha creado, de nuevo usando `git status` ... Deberíamos notar que una línea en el resultado identifica que un archivo de texto ha sido modificado Y ahora está listo para ser confirmado.
 
 ```bash
 $ git status
@@ -86,22 +86,22 @@ $ git status
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
 
-	modified:   johnny_appleseed.txt
+  modified:   johnny_appleseed.txt
 ```
 
-### Commit your changes
+### Confirma tus cambios
 
 
-`git commit` your changes when you are ready to make a permanent record of them. It is customary to add a short descriptive message (using the `-m` option) describing your changes, whenever you commit.
+`git commit` sus cambios cuando esté listo para hacer un registro permanente de ellos. Es habitual agregar un breve mensaje descriptivo (utilizando la opción `-m`) que describa sus cambios, siempre que lo haga.
 
-```bash
-$ git commit -m "Description of changes"
-```
+`` `bash
+$ git commit -m "Descripción de los cambios"
+`` `
 
-**NOTE**: Commit messages should be short (typically 50 characters or less). See the **Resources** below for more details on commit messages.
+** NOTA **: los mensajes de confirmación deben ser cortos (normalmente 50 caracteres o menos). Consulte los ** Recursos ** a continuación para obtener más detalles sobre los mensajes de confirmación.
 
-### Status check
-Take a look at things now that the file has been committed, again using `git status`... We should notice a line in the output identifies that your files are ahead of/or no longer in sync with the files in **your GitHub repo**.
+### Comprobación del estado
+Echa un vistazo a las cosas ahora que se ha confirmado el archivo, una vez más usando `git status` ... Deberíamos notar que una línea en el resultado identifica que tus archivos están adelantados o que ya no están sincronizados con los archivos en ** tu Repo de GitHub **.
 
 ```bash
 $ git status
@@ -110,53 +110,53 @@ Your branch is ahead of 'origin/master' by 1 commit.
   (use "git push" to publish your local commits)
 ```
 
-### Push your changes to your GitHub repo:
-Push the commit to **your** GitHub repo with `git push`:
+### Presione sus cambios a su repositorio de GitHub:
+Presione el compromiso a ** su ** repositorio GitHub con `git push`:
 
 ```bash
 $ git push origin master
 ```
 
-In this case, you are pushing your `master` branch (i.e., the main branch you have been working on) to **origin**, your GitHub repository. We will discuss branching in more depth later.
+En este caso, está subiendo a su rama `master` (es decir, la rama principal en la que ha estado trabajando) a ** origen **, su repositorio de GitHub. Discutiremos los branches con más profundidad más adelante.
 
-### Status check, local
-Take a look at things now that the file has been pushed, again using `git status`... We should notice a line in the output identifies that your `master` branch is up-to-date/or in sync with **your GitHub repo** (`origin`).
+### Verificación del estado, local
+Echa un vistazo a las cosas ahora que el archivo ha sido subido, nuevamente usando `git status` ... Deberíamos notar que una línea en el resultado identifica que tu rama` master` está actualizada / o sincronizada con ** su repositorio de GitHub ** (`origen`).
 
 ```bash
 $ git status
 On branch master
 Your branch is up-to-date with 'origin/master'.
 ```
-### Status check, remote
-Now go to **your GitHub Repo** and confirm that the changes you made on your local computer are actually present in the files on GitHub. You should be able to surf to the file you edited and see the changes!
+### Verificación de estado, remota
+Ahora vaya a ** su GitHub Repo ** y confirme que los cambios que realizó en su computadora local están realmente presentes en los archivos en GitHub. ¡Debería poder navegar al archivo que editó y ver los cambios!
 
-## Done with commands for now!
+## Hecho con comandos por ahora!
 
-If you (and your partner, if you're working in pairs) are done, then you can put your green sticky up! This is how we know you're done.
+Si usted (y su pareja, si está trabajando en parejas) han terminado, ¡puede poner su verde adhesivo! Así es como sabemos que terminaste.
 
-![green sticky note](images/Sticky-Note-02-Green-300px.png)
+! [nota adhesiva verde](imágenes/Sticky-Note-02-Green
 
-## The big picture
+## El panorama
 
-In this section, we covered a number of commands that break down into several key concepts:
+En esta sección, cubrimos una serie de comandos que se dividen en varios conceptos clave:
 
-* Determine the **status** of your local directory
-* **Add** a file to the staging area
-* **Commit** that file for the historical record
-* **Push** the file to your GitHub repo
+* Determine el ** estado ** de su directorio local
+* ** Agregar ** un archivo al área de preparación
+* ** Commit ** ese archivo para el registro histórico
+* ** Presione ** el archivo a su repositorio de GitHub
 
-With your own projects, for 95% of what you do, this is sufficient to regularly track your progress and get your changes onto the internet. You will use these commands more than any others.
+Con sus propios proyectos, para el 95% de lo que hace, esto es suficiente para realizar un seguimiento regular de su progreso y obtener sus cambios en Internet. Usará estos comandos más que cualquier otro.
 
-**NOTE:** We will cover several more advanced concepts both in the **Deep Dive** and in later discussions.
+** NOTA: ** Cubriremos varios conceptos más avanzados tanto en ** Sumérgete ** como en discusiones posteriores.
 
 
-## Deep dive
+## Sumérgete
 
-Especially for beginners, understanding the state of your local directory is critical to growing your skills. And luckily, for 95% of what you do, only a handful of commands will get you most of the way.
+Especialmente para principiantes, comprender el estado de su directorio local es fundamental para aumentar sus habilidades. Y afortunadamente, para el 95% de lo que haces, solo unos pocos comandos te ayudará a alcanzar la mayor parte del camino.
 
-### Status checking
+### Comprobación de estado
 
-Since some of our messages above were abbreviated for clarity, let's look more deeply into what we really get from `git status`. Get into the habit of reading the status messages after every command you type and you will quickly hone in on the feedback you need. The following command tells you that right now, your local copy matches what your computer last heard is in your GitHub server... everything is **clean**.
+Como algunos de nuestros mensajes anteriores fueron abreviados para mayor claridad, veamos más profundamente lo que realmente obtenemos del `estado de git`. Adquiera el hábito de leer los mensajes de estado después de cada comando que escriba y rápidamente obtendrá los comentarios que necesita. El siguiente comando le dice que, en este momento, su copia local coincide con la última escucha de su computadora en su servidor GitHub ... todo está ** limpio **.
 
 
 ```bash
@@ -166,7 +166,7 @@ Your branch is up-to-date with 'origin/master'.
 nothing to commit, working tree clean
 ```
 
-If you have locally changed files that are in a **working** state (not yet **staged**), you will see something like this:
+Si ha cambiado localmente los archivos que están ** en estado ** de trabajo ** (aún no ** en etapas **), verá algo como esto:
 
 ```bash
 $ git status
@@ -176,25 +176,25 @@ Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
-	modified:   README.md
+  modified:   README.md
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
-This says the file called "README.md" is changed locally but not yet staged. Note particularly that there are several helper messages in there that tell me how to:
+Esto dice que el archivo llamado "README.md" se cambió localmente pero aún no está organizado. Note particularmente que hay varios mensajes de ayuda que me dicen cómo:
 
-* **add** the README.md file to the staging area
-* **revert** the README.md (i.e. get it back to the way it was before I made my change)
+* ** agregue ** el archivo README.md al área de ensayo
+* ** revertir ** el archivo README.md (es decir, volverlo a poner como antes de hacer mi cambio)
 
-### Staging files
+### Archivos en commit
 
-Next I want to move the file to the staging area (i.e. `git add` to the pallet):
+Luego quiero mover el archivo al área de preparación (es decir, `git add`):
 
 ```bash
 $ git add README.md
 ```
 
-This time, the status message is slightly different. The hints are different and the status announcements are new. Again, reading these status messages will help you get familiar with the commands AND hints AND will drive home the concepts related to local changes, staged changes, committed changes, etc.
+Esta vez, el mensaje de estado es ligeramente diferente. Las sugerencias son diferentes y los anuncios de estado son nuevos. Una vez más, la lectura de estos mensajes de estado lo ayudará a familiarizarse con los comandos Y sugerencias, y le llevará a casa los conceptos relacionados con los cambios locales, cambios por etapas, cambios comprometidos, etc.
 
 ```
 $ git status
@@ -203,14 +203,14 @@ Your branch is up-to-date with 'origin/master'.
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
 
-	modified:   README.md
+  modified:   README.md
 ```
 
-Now we can see that the file is **staged**, but not yet **committed**. We can also see the hint `git reset HEAD` for what to type to if we need to move a given file back to an unstaged state.
+Ahora podemos ver que el archivo está ** en etapas **, pero aún no está ** comprometido **. También podemos ver la sugerencia `git reset HEAD` para saber a qué escribir si necesitamos mover un archivo dado a un estado no estado.
 
-### Committing files
+### Commiting archivos
 
-Next I want to commit the file (i.e. load it on the truck) using `git commit -m "a short description"`, where `-m` is a flag for my commit message. Good commit messages should be short, sweet and descriptive.
+Luego quiero enviar el archivo (es decir, cargarlo para subir) usando `git commit -m '' una breve descripción` `, donde` -m` es una bandera para mi mensaje de confirmación. Los buenos mensajes de commit deben ser breves, dulces y descriptivos.
 
 ```bash
 $ git commit -m 'my short description of the work'
@@ -218,14 +218,14 @@ $ git commit -m 'my short description of the work'
  1 file changed, 1 insertion(+), 1 deletion(-)
 ```
 
-In this case, the output tells me several things: 
+En este caso, la salida me dice varias cosas:
 
-* it repeats my commit message 
-* lets me know what types of changes occurred: 1 file changed, 1 line was inserted, 1 line was deleted (i.e., I swapped out a line). 
+* repite mi mensaje de compromiso
+* me permite saber qué tipos de cambios ocurrieron: 1 archivo modificado, 1 línea insertada, 1 línea eliminada (es decir, cambié una línea).
 
-In a later discussion, we will see how to see exactly what content changed.
+En una discusión posterior, veremos cómo ver exactamente qué contenido cambió.
 
-`git status` again comes to the rescue to help us confirm and understand the changes we have committed.
+`git status` vuelve al rescate para ayudarnos a confirmar y comprender los cambios que hemos agregago.
 
 ```
 $ git status
@@ -235,17 +235,17 @@ Your branch is ahead of 'origin/master' by 1 commit.
 nothing to commit, working tree clean
 ```
 
-Here, like earlier, my working tree is again **clean** (all changes are committed). However, unlike before, I have some changes in my local repository that are not yet on the remote server. Like all other status messages, I can see the hint message that guides me on what to type to `git push` the file up to my **GitHub repo** (`origin`).
+Aquí, como antes, mi árbol de trabajo está de nuevo ** limpio ** (se han confirmado todos los cambios). Sin embargo, a diferencia de antes, tengo algunos cambios en mi repositorio local que aún no están en el servidor remoto. Al igual que todos los demás mensajes de estado, puedo ver el mensaje de sugerencia que me guía sobre qué escribir a `git push` del archivo a mi ** repositorio de GitHub ** (` origen`).
 
-### Pushing files
+### Subir archivos
 
-When pushing your commits to GitHub, the `git push` command will give you a summary of all the changes that it attempted to make. In the following case, we see that `git`:
+Al enviar sus commits a GitHub, el comando `git push` le dará un resumen de todos los cambios que intentó realizar. En el siguiente caso, vemos que `git`:
 
-* sent several objects (it is normal for multiple objects to be sent up even if you only changed one file. Those other items are internal to `git` and not critical for you to worry about now).
-* compressed the data
-* wrote the data
-* reported back on where the data was sent
-* displayed several hash values showing the commits
+* envió varios objetos (es normal que se envíen varios objetos incluso si solo ha cambiado un archivo. Esos otros elementos son internos a `git` y no son críticos para que se preocupe ahora).
+* Comprimido los datos
+* escribió los datos
+* informó sobre dónde se enviaron los datos
+* muestra varios valores hash que muestran los commits
 
 ```bash
 $ git push
@@ -258,15 +258,14 @@ To github:myusername/my_repo.git
    98b2f3f..206546b  master -> master
 ```
 
-**About Hashes**: without going into the computer science behind it, `git` creates a unique value called a `hash` for every change that gets committed. Because hashes are unique values, they allow you to:
+** Acerca de Hashes **: sin entrar en la ciencia de la computación detrás de él, `git` crea un valor único llamado` hash` por cada cambio que se compromete. Como los hashes son valores únicos, te permiten:
 
-* pick specific commits to examine OR
-* specific commits to revert back to, if you find you need to undo a change to your repository. 
+* elegir commits específicos para examinar o
+* commits específicos para volver a, si encuentra que necesita deshacer un cambio en su repositorio.
 
-The seven digit numbers you see in `git` and on GitHub (e.g., `206546b`) identify a specific change and are a short form for a longer hash number.
+Los números de siete dígitos que ve en `git` y en GitHub (por ejemplo,` 206546b`) identifican un cambio específico y son una forma abreviada de un número de hash más largo.
 
-Let's again use `git status` to look at the results of our work:
-
+Volvamos a usar `git status` para ver los resultados de nuestro trabajo:
 ```
 $ git status
 On branch master
@@ -274,25 +273,25 @@ Your branch is up-to-date with 'origin/master'.
 nothing to commit, working tree clean
 ```
 
-... and everything is clean again, but now with our local change pushed to GitHub and available to the world. **IF** you go to **your GitHub repository**, you can see your changes via your web browser.
+... y todo está limpio de nuevo, pero ahora con nuestro cambio local subido a GitHub y disponible para el mundo. ** SI ** va a ** su repositorio de GitHub **, puede ver sus cambios a través de su navegador web.
 
-Get in the habit of using `git status` regularly, it is probably the most informative and helpful command for understanding exactly what's going on.
+Adquiera el hábito de usar `git status` con regularidad, probablemente sea el comando más informativo y útil para comprender exactamente lo que está sucediendo.
 
-### Adding multiple files
+### Agregar múltiples archivos
 
-If you need to add more than one file to the staging area, simply separate the filenames with a space:
+Si necesita agregar más de un archivo al área de ensayo, simplemente separe los nombres de archivo con un espacio:
 
 ```bash
 $ git add <file1> <file2> ...
 ```
 
 
-## Resources
+## Recursos
 
-* [Git Basics - Recording Changes to the Repository](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
+* [Git Basico - Grabando cambios a repositorio](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
 
-<!-- begin auto-generated nav-links section -->
-| Previous | Up | Next |
-|:---------|:---:|-----:|
-| [Cloning a Repository](./git_cloning.md) | [Using Git](./git_overview.md) | [Git Common Operations](./git_common_operations.md) |
-<!-- end auto-generated section -->
+<!-- comience la sección de enlaces de navegación generados automáticamente -->
+| Anterior | Arriba | Siguiente |
+|: --------- |: ---: | -----: |
+| [Clonación de un repositorio](./git_cloning.md) | [Usando Git](./git_Resumen.md) | [Operaciones comunes de Git](./git_common_operations.md) |
+<!-- fin de la sección autogenerada -->

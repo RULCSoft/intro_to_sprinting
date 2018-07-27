@@ -1,60 +1,60 @@
-<!-- begin auto-generated title section -->
-# Using Git
-<!-- end auto-generated section -->
+<!-- comienza la sección de título generado automáticamente -->
+# Usando Git
+<!-- fin de la sección autogenerada -->
 
 
-## Overview
+## Resumen
 
-Git is a version control system -- it enables you to control the various versions of your projects, such as open source projects.
+Git es un sistema de control de versiones que le permite controlar las distintas versiones de sus proyectos, como los proyectos de código abierto.
 
-While Git is great for helping you manage versions for **your own** projects, it also makes it easy to contribute to projects that **other people** are working on. If you are collaborating on a project with others OR if you have a copy of your project hosted somewhere, such as GitHub, the project code will live in a central **remote repository**, traditionally called `origin`. Programmers copy the project into their own **local repository**, where they can work on adding features and squashing bugs. When finished, they
-push the code to `origin`, for other contributers to see and/or pull from. Version control systems, along with managing changes to projects, also help ensure each contributor is working on the same codebase.
+Si bien Git es ideal para ayudarlo a administrar versiones ** de sus propios proyectos **, también facilita la contribución a proyectos en los que ** otras personas ** están trabajando. Si está colaborando en un proyecto con otros o si tiene una copia de su proyecto alojada en alguna parte, como GitHub, el código del proyecto vivirá en un ** repositorio remoto **, tradicionalmente llamado 'origen'. Los programadores copian el proyecto en su propio ** repositorio local **, donde pueden trabajar para agregar funciones y eliminar errores. Cuando terminen, ellos
+inserta el código en 'origen', para que otros contribuyentes puedan ver y / o extraer. Los sistemas de control de versiones, junto con la gestión de cambios en los proyectos, también ayudan a garantizar que cada colaborador trabaje en la misma base de código.
 
-## Objectives
+## Objetivos
 
-Through participating in this session, attendees will be able to:
+Al participar en esta sesión, los asistentes podrán:
 
-* Understand why Git is used in an open source project
-* Use basic `git` commands to:
-    * get a copy of an open source project
-    * save modifications/additions/deletions to the project
-    * submit those changes to the project
-    * incorporate other's changes to the project
-    * verify the status of the project repository
-    * perform basic troubleshooting
+* Comprender por qué se usa Git en un proyecto de código abierto
+* Use los comandos básicos de `git` para:
+    * obtener una copia de un proyecto de código abierto
+    * guardar modificaciones / adiciones / eliminaciones en el proyecto
+    * envíe esos cambios al proyecto
+    * incorporar otros cambios al proyecto
+    * verificar el estado del repositorio del proyecto
+    * realizar una solución de problemas básica
 
-**NOTE**: this will be a **hands-on** overview of `git`. It is incredibly powerful with many options and capabilities. The goal is to get you **started** with `git`, but it will take time and practice on your own to make you into an expert.
+** NOTA **: esta será una vista general ** práctica de `git`. Es increíblemente poderoso con muchas opciones y capacidades. El objetivo es hacer que ** comience ** con `git`, pero llevará tiempo y práctica por su cuenta convertirlo en un experto.
 
 
-### Command-line interface
+### Interfaz de línea de comandos
 
-We will be using `git` from the command line in this course. There are a lot of commands, and they can be kind of confusing. That's OK... it will start to make sense once you do it a few times. And that's why you're here!
+Usaremos `git` desde la línea de comando en este curso. Hay muchos comandos, y pueden ser un poco confusos. Eso está bien ... comenzará a tener sentido una vez que lo hagas varias veces. ¡Y es por eso que estás aquí!
 
-### Graphical User Interface (GUI)-based `git` tools
+### Herramientas git basadas en la interfaz gráfica de usuario (GUI)
 
-There are Graphical User Interface (GUI) tools available as well, but they are beyond the scope of this workshop. Some examples include:
+También hay herramientas de interfaz gráfica de usuario (GUI) disponibles, pero están más allá del alcance de este taller. Algunos ejemplos incluyen:
 
 * [gitk](https://lostechies.com/joshuaflanagan/2010/09/03/use-gitk-to-understand-git/)
 * [SourceTree](https://www.sourcetreeapp.com/)
 
-... and there are many others.
+... y hay muchos otros.
 
 
-## Lessons
+## Lecciones
 
-* [Git Concepts](./git_concepts.md): <objective of lesson>
-* [Cloning a Repository](./git_cloning.md): <objective of lesson>
-* [Git Primary Workflow: Add, Commit, Push](./git_main_lifecycle.md): <objective of lesson>
-* [Git Common Operations](./git_common_operations.md): <objective of lesson>
-* [Branching and Merging](./git_branch_merge.md): <objective of lesson>
+* [Conceptos de Git](./git_concepts.md): <objetivo de la lección>
+* [Clonación de un repositorio](./git_cloning.md): <objetivo de la lección>
+* [Git Primary Workflow: Add, Commit, Push] (./ git_main_lifecycle.md): <objetivo de la lección>
+* [Operaciones comunes de Git](./git_common_operations.md): <objetivo de la lección>
+* [Branching and Merging](./git_branch_merge.md): <objetivo de la lección>
 
 
-## Resources
+## Recursos
 
-* [Getting Started - Git Basics](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
+* [Introducción - Conceptos básicos de Git](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
 
-<!-- begin auto-generated nav-links section -->
-| Previous | Up | Next |
-|:---------|:---:|-----:|
-| [Setting up Git](./git_config.md) | [Table of Contents](./README.md) | [Git Concepts](./git_concepts.md) |
-<!-- end auto-generated section -->
+<!-- comience la sección de enlaces de navegación generados automáticamente -->
+| Anterior | Arriba | Siguiente |
+|: --------- |: ---: | -----: |
+| [Configurando Git](./git_config.md) | [Table of Contents](./README.md) | [Conceptos de Git](./git_concepts.md) |
+<!-- fin de la sección autogenerada -->
