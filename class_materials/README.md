@@ -1,6 +1,6 @@
 # Tabla de contenido
 
-1. [Descripción general del curso y preparación](./prereq_Resumen.md)
+1. [Descripción general del curso y preparación](./prereq_overview.md)
    1. [Preparación del instructor](./prereq_instructor.md)
    1. [Preparación del estudiante](./prereq_student.md)
 1. [Configuración del entorno](./environment_Resumen.md)
