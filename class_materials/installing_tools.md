@@ -33,13 +33,13 @@ Verás una de estas dos cosas.
 
 - `git: Comando no encontrado. ¡Esto es bueno! Significa que ** seguirás nuestras instrucciones para instalar git! ** Sigue leyendo.
 
-#### <img src = "images / windows_icon.jpg" width = "24" height = "24"> Windows
+#### <img src="images/windows_icon.jpg" width="24" height="24"> Windows 
 
 1. Descargue el [instalador git](https://git-scm.com/downloads) (** NOTA: ** Si no está seguro de si necesita la versión de 32 o 64 bits, puede [siga estos pasos](https://support.microsoft.com/en-us/help/15056/windows-7-32-64-bit-faq))
 
 3. Ejecute el archivo .exe que descargó y siga las instrucciones.
 
-#### <img src = "images / mac_icon.png" width = "24" height = "24"> Mac OS
+#### <img src = "images/mac_icon.png" width="24" height="24"> Mac OS 
 
 1. Descargue el [instalador git](https://git-scm.com/downloads)
 
@@ -53,7 +53,7 @@ Muchos usuarios de Mac usan [homebrew](http://brew.sh/) para instalar programas.
 brew instalar git
 `` `
 
-#### <img src = "images / linux_icon.jpg" width = "24" height = "24"> Linux
+#### <img src = "images/linux_icon.jpg" width="24" height="24"> Linux 
 
 Si está ejecutando Linux, es muy probable que ya tenga `git` instalado. Si no es así, instálelo escribiendo uno de estos comandos en el símbolo del sistema.
 
