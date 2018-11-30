@@ -47,8 +47,8 @@ Los participantes deben esperar alcanzar los siguientes objetivos de aprendizaje
 * [Preparación del instructor](./prereq_instructor.md): pasos que el instructor debe tomar para prepararse para el taller.
 * [Preparación del alumno](./prereq_student.md): Pasos que los alumnos deben tomar para prepararse para el taller.
 
-<!-- comience la sección de enlaces de nav-gación generados automáticamente -->
-| Anterior | Arriba | Siguiente |
-|: --------- |: ---: | -----: |
-| [Table of Contents](./README.md) | [Table of Contents](./README.md) | [Preparación del instructor](./prereq_instructor.md) |
-<!-- fin de la sección autogenerada -->
+<!-- begin auto-generated nav-links section -->
+| Previous | Up | Next |
+|:---------|:---:|-----:|
+| [Table of Contents](./README.md) | [Table of Contents](./README.md) | [Instructor Preparation](./prereq_instructor.md) |
+<!-- end auto-generated section -->
