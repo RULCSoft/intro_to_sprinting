@@ -15,8 +15,8 @@ Durante esta parte del taller, instalaremos software y configuraremos elementos 
 1. [Fork de un repo](./fork_a_repo.md)
 1. [Configurando Git](./git_config.md)
 
-<!-- comience la sección de enlaces de navegación generados automáticamente -->
-| Anterior | Arriba | Siguiente |
-|: --------- |: ---: | -----: |
-| [Preparación del alumno](./prereq_student.md) | [Table of Contents](./README.md) | [Instalar el software que necesitará](./installed_tools.md) |
-<!-- fin de la sección autogenerada -->
+<!-- begin auto-generated nav-links section -->
+| Previous | Up | Next |
+|:---------|:---:|-----:|
+| [Student Preparation](./prereq_student.md) | [Table of Contents](./README.md) | [Installing the Software You'll Need](./installing_tools.md) |
+<!-- end auto-generated section -->
