@@ -56,8 +56,9 @@ Este taller está destinado a ser lo más práctico posible. Si bien es necesari
 
 N / A
 
-<!-- comience la sección de enlaces de navegación generados automáticamente -->
-| Anterior | Arriba | Siguiente |
-|: --------- |: ---: | -----: |
-| [Descripción general y preparación del curso](./prereq_Resumen.md) | [Descripción general y preparación del curso](./prereq_Resumen.md) | [Preparación del alumno](./prereq_student.md) |
-<!-- fin de la sección autogenerada -->
+
+<!-- begin auto-generated nav-links section -->
+| Previous | Up | Next |
+|:---------|:---:|-----:|
+| [Course Overview and Preparation](./prereq_overview.md) | [Course Overview and Preparation](./prereq_overview.md) | [Student Preparation](./prereq_student.md) |
+<!-- end auto-generated section -->
