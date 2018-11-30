@@ -9,7 +9,7 @@ Durante esta parte del taller, instalaremos software y configuraremos elementos 
 
 ## Lecciones
 
-1. [Instalar el software que necesitará](./installed_tools.md)
+1. [Instalar el software que necesitará](./installing_tools.md)
 1. [Configuración de entornos virtuales](./virtual_environments.md)
 1. [Configurando GitHub](./github_setup.md)
 1. [Fork de un repo](./fork_a_repo.md)
