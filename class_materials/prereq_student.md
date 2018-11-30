@@ -46,8 +46,8 @@ En la sesión de práctica, utilizará herramientas de línea de comandos para c
 * [Línea de comandos de Windows](http://www.cs.columbia.edu/~sedwards/classes/2017/1102-spring/Command%20Prompt%20Cheatsheet.pdf) Cosas de línea de comandos de Windows
 * [Linux / Mac línea de comandos](https://files.fosswire.com/2007/08/fwunixref.pdf) Linux línea de comandos cosas
 
-<!-- comience la sección de enlaces de navegación generados automáticamente -->
-| Anterior | Arriba | Siguiente |
-|: --------- |: ---: | -----: |
-| [Preparación del instructor](./prereq_instructor.md) | [Descripción general y preparación del curso](./prereq_Resumen.md) | [Configuración del entorno](./environment_Resumen.md) |
-<!-- fin de la sección autogenerada -->
+<!-- begin auto-generated nav-links section -->
+| Previous | Up | Next |
+|:---------|:---:|-----:|
+| [Instructor Preparation](./prereq_instructor.md) | [Course Overview and Preparation](./prereq_overview.md) | [Environment Set-up](./environment_overview.md) |
+<!-- end auto-generated section -->
