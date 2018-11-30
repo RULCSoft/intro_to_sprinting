@@ -87,7 +87,7 @@ Aquí hay una lista de mensajes de error y cómo solucionarlos.
 
 - `conda: comando no encontrado. Esto significa que debe cerrar y reiniciar su terminal. Si eso no lo soluciona, solicite ayuda. ([Detalles aquí.] (Https://unix.stackexchange.com/questions/86012/what-is-the-purpose-of-the-hash-command))
 
-## Hecho con comandos por ahora!
+## Listo con los comandos por ahora!
 
 Si (si trabajas en parejas, tú y tu pareja) ya terminaron, ¡ahora puedes poner tu verde pegajoso! Así es como sabemos que terminaste con los comandos.
 
