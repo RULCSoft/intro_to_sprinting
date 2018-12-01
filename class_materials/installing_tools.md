@@ -29,9 +29,20 @@ Abra un símbolo del sistema / terminal y escriba `git`
 
 Verás una de estas dos cosas.
 
-- ** Un montón de texto **, que es un documento que explica algunos de los comandos `git` más comunes. Si ve esto, vaya a las instrucciones sobre [descargar e instalar Conda.](#Download-and-install-conda) porque git ya está instalado.
+- **Un montón de texto**, que es un documento que explica algunos de los comandos `git` más comunes. Si ve esto, vaya a las instrucciones sobre [descargar e instalar Conda.](#Download-and-install-conda) porque git ya está instalado.
 
-- `git: Comando no encontrado. ¡Esto es bueno! Significa que ** seguirás nuestras instrucciones para instalar git! ** Sigue leyendo.
+```bash
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+...
+```
+
+- `git: Comando no encontrado. ¡Esto es bueno! Significa que **seguirás nuestras instrucciones para instalar git!** Sigue leyendo.`
 
 #### <img src="images/windows_icon.jpg" width="24" height="24"> Windows 
 
