@@ -74,11 +74,19 @@ Si está ejecutando Linux, es muy probable que ya tenga `git` instalado. Si no e
 $ sudo yum install git-all
 ```
 
-** Los sistemas ** basados ​​en Debian (Ubuntu, Debian) usan:
+**Los sistemas ** basados ​​en Debian (Ubuntu, Debian) usan:
 
 ```bash
 $ sudo apt-get install git-all
 ```
+
+En OpenSuse:
+
+```bash
+$ sudo zypper install git-core
+```
+
+** Los sistemas ** basados 
 
 ### Paso dos: confirma tu instalación de `git`
 
