@@ -42,7 +42,7 @@ These are common Git commands used in various situations:
 ...
 ```
 
-- `git: Comando no encontrado. ¡Esto es bueno! Significa que **seguirás nuestras instrucciones para instalar git!** Sigue leyendo.`
+- `git: Comando no encontrado.` ¡Esto es bueno! Significa que **seguirás nuestras instrucciones para instalar git!** Sigue leyendo.
 
 #### <img src="images/windows_icon.jpg" width="24" height="24"> Windows 
 
