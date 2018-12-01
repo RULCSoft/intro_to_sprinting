@@ -60,6 +60,6 @@ Los principiantes NO necesitarán tener un conocimiento profundo sobre lo siguie
 2. Cualquier proyecto de código abierto específico
 
 
-| Siguiente |
-|: --------- |
-| [Tabla de contenido](./class_materials/README.md)|
+| Next |
+|:---------|
+| [Table of Contents](./class_materials/README.md) |
