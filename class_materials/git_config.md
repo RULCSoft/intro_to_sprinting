@@ -17,16 +17,16 @@ Cuando contribuyas a un proyecto, querrás que tu nombre esté asociado a tus co
 
 Ejecute los siguientes comandos en la línea de comandos para establecer dos configuraciones globales: su nombre y su dirección de correo electrónico. Como no eres Johnny Appleseed, cambia los comandos en consecuencia.
 
-`` `bash
+```bash
 $ git config --global user.name "Johnny Appleseed"
 $ git config --global usuario.email "johnny.appleseed@example.com"
-`` `
+```
 
 ## Hecho con comandos por ahora!
 
 Si usted (y su pareja, si está trabajando en parejas) han terminado, ¡puede poner su sticker verde! Así es como sabemos que terminaste.
 
-! [nota adhesiva verde](images/Sticky-Note-02-Green-300px.png)
+![nota adhesiva verde](images/Sticky-Note-02-Green-300px.png)
 
 ## El panorama
 
