@@ -80,7 +80,7 @@ Para esta lección, visualizamos una estructura de directorios / carpetas bastan
 * un directorio para su ** proyecto (s) ** que se guardará en
 * un directorio asociado con ** miniconda **
 
-! [Nuestros directorios locales](images/basic_dir.png)
+![Our Local Directories](images/basic_dir.png)
 
 Cuando creas un virtualenv, conda agregará subdirectorios al directorio miniconda. Específicamente, creará un directorio que contendrá:
 
@@ -90,7 +90,7 @@ Cuando creas un virtualenv, conda agregará subdirectorios al directorio minicon
 NOTA: estas carpetas son ** NO ** duplicadas entre sí, pero ** están ** vinculadas entre sí.
 NOTA: Las carpetas de miniconda virtualenv ** ** incluirán su código de proyecto.
 
-! [Dires locales con ambientes conda](images/conda_envs.png)
+![Dires locales con ambientes conda](images/conda_envs.png)
 
 
 ## Sumérgete
