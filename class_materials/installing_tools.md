@@ -102,7 +102,7 @@ Aquí hay una lista de mensajes de error y cómo solucionarlos.
 
 Si (si trabajas en parejas, tú y tu pareja) ya terminaron, ¡ahora puedes poner tu verde pegajoso! Así es como sabemos que terminaste con los comandos.
 
-! [nota adhesiva verde](images/Sticky-Note-02-Green-300px.png)
+![green sticky note](images/Sticky-Note-02-Green-300px.png)
 
 Si le gusta leer, también puede seguir leyendo esta página.
 
