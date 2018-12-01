@@ -60,9 +60,9 @@ These are common Git commands used in various situations:
 
 Muchos usuarios de Mac usan [homebrew](http://brew.sh/) para instalar programas.
 
-`` `bash
+```bash
 brew instalar git
-`` `
+```
 
 #### <img src = "images/linux_icon.jpg" width="24" height="24"> Linux 
 
@@ -70,15 +70,15 @@ Si está ejecutando Linux, es muy probable que ya tenga `git` instalado. Si no e
 
 ** Los sistemas basados ​​en Red Hat ** (Red Hat, Centos, Fedora) usan:
 
-`` `bash
+```bash
 $ sudo yum install git-all
-`` `
+```
 
 ** Los sistemas ** basados ​​en Debian (Ubuntu, Debian) usan:
 
-`` `bash
+```bash
 $ sudo apt-get install git-all
-`` `
+```
 
 ### Paso dos: confirma tu instalación de `git`
 
