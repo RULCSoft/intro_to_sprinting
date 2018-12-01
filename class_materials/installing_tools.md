@@ -133,3 +133,9 @@ Siempre que trabaje en un nuevo proyecto, debe crear un entorno separado para es
 * [Python's `venv` and `virtualenv` can also create virtual environments.](http://stackoverflow.com/questions/41573587/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrappe)
 
 * [`pip` is Python's package manager.](https://en.wikipedia.org/wiki/Pip_(package_manager))
+
+<!-- begin auto-generated nav-links section -->
+| Previous | Up | Next |
+|:---------|:---:|-----:|
+| [Installing the Software You'll Need](./installing_tools.md) | [Environment Set-up](./environment_overview.md) | [Setting up Git](./git_config.md) |
+<!-- end auto-generated section -->
