@@ -26,46 +26,46 @@ Al participar en esta sesión, los asistentes podrán:
 * Crea un directorio para tu proyecto, en este caso, crearemos un directorio llamado `mytest`
 * En el símbolo del sistema, asegúrese de que se encuentra en un directorio donde desea que se ubique la carpeta del proyecto (muchas personas lo colocan en su carpeta `Mis documentos` O` inicio`. Desde ese directorio, ejecute el siguiente comando:
 
-`` `bash
+```bash
 $ mkdir mytest
-`` `
+```
 
 * Cambiar directorios en la nueva carpeta:
 
-`` `bash
+```bash
 $ cd mytest
-`` `
+```
 
 * Crea un entorno virtual con Python 3, usando el siguiente comando:
 
-`` `bash
+```bash
 $ conda create -n mytest python = 3
-`` `
+```
 * Activa tu entorno virtual usando el comando apropiado para tu sistema operativo:
 
-#### <img src = "images / mac_icon.png" width = "24" height = "24"> <img src = "images / linux_icon.jpg" width = "24" height = "24"> Mac / Linux
+#### <img src="images/mac_icon.png" width = "24" height = "24"> <img src = "images/linux_icon.jpg" width = "24" height = "24"> Mac / Linux
 
-`` `bash
+```bash
 $ source activate mytest
-`` `
+```
 
 #### <img src = "images / windows_icon.jpg" width = "24" height = "24"> Windows
 
-`` `murciélago
+``` bat
 C: \> activate mytest
-`` `
+```
 
 * Instale dos paquetes adicionales en su entorno virtual (como sugerencia, intente con `ipython` y` mock`) usando el siguiente comando:
 
-`` `bash
+```bash
 conda install ipython simulacro
-`` `
+```
 
-## Hecho con comandos por ahora!
+## Listo con los comandos por ahora!
 
 Si (si trabajas en parejas, tú y tu pareja) ya terminaron, ¡ahora puedes poner tu sticker verde! Así es como sabemos que terminaste con los comandos.
 
-! [nota adhesiva verde](images/Sticky-Note-02-Green-300px.png)
+![nota adhesiva verde](images/Sticky-Note-02-Green-300px.png)
 
 Si le gusta leer, también puede seguir leyendo esta página.
 
@@ -109,9 +109,9 @@ Si bien hay varios programas o bibliotecas que pueden generar virtualenvs (consu
 
 Suponiendo que tiene `conda` instalado, estos pasos le permiten crear y activar un entorno virtual.
 
-`` `bash
+```bash
 $ conda create -n mytest python = 3
-`` `
+```
 
 Descripción:
 * `conda` ejecuta el programa conda.
