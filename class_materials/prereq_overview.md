@@ -11,9 +11,9 @@ Bienvenido a ** Introducción al taller open source **. Se espera que los partic
 
 Este taller cubre ...
 
-* [Configuración del entorno](./environment_Resumen.md): instalación de software, creación de un entorno virtual, fork de un repositorio y configuración del software de control de versiones.
-* [Usando Git](./git_Resumen.md): comandos básicos para copiar un repositorio, agregar los cambios, confirmar esos cambios y enviar los cambios a Github.
-* [Usando Github](./github_Resumen.md): descripción general básica de las herramientas de colaboración en Github y cómo emitir un pull request.
+* [Configuración del entorno](./installing_tools.md): instalación de software, creación de un entorno virtual, fork de un repositorio y configuración del software de control de versiones.
+* [Usando Git](./git_overview.md): comandos básicos para copiar un repositorio, agregar los cambios, confirmar esos cambios y enviar los cambios a Github.
+* [Usando Github](./github_overview.md): descripción general básica de las herramientas de colaboración en Github y cómo emitir un pull request.
 * [Practicando tus habilidades](./for_realz.md): una oportunidad de practicar estas habilidades en un proyecto en Github.
 
 
