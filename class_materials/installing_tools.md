@@ -126,6 +126,10 @@ Siempre que trabaje en un nuevo proyecto, debe crear un entorno separado para es
 
 ## Recursos
 
-* [Usando conda](http://conda.pydata.org/docs/using/index.html): Un tutorial sobre cómo usar `conda`
+* [Using conda](http://conda.pydata.org/docs/using/index.html): A tutorial on how to use `conda`
 
-* [conda cheatsheet](https://conda.io/docs/_downloads/c
+* [conda cheatsheet](https://conda.io/docs/_downloads/conda-cheatsheet.pdf): A cheatsheet of the most common `conda` commands
+
+* [Python's `venv` and `virtualenv` can also create virtual environments.](http://stackoverflow.com/questions/41573587/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrappe)
+
+* [`pip` is Python's package manager.](https://en.wikipedia.org/wiki/Pip_(package_manager))
