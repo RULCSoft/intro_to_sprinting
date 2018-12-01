@@ -275,12 +275,11 @@ Discutir esto está fuera del alcance de este curso. Usar cualquiera de estas he
 
 
 
-## Notas a pie de página
+## Footnotes
 
-[1]: los mantenedores de conda reúnen recursos para las versiones más recientes de las bibliotecas de Python a medida que se lanzan, pero a veces puede haber un retraso breve.
+[1]: the maintainers of conda put together resources for the most recent versions of Python libraries as they get released, but sometimes there may be a short lag.
 
-<!-- comience la sección de enlaces de navegación generados automáticamente -->
-| Anterior | Arriba | Siguiente |
-|: --------- |: ---: | -----: |
-| [Instalar el software que necesitará](./installed_tools.md) | [Configuración del entorno](./environment_Resumen.md) | [Configuración de GitHub y bifurcación de un repositorio](./github_setup.md) |
-<!-- fin de la sección autogenerada -->
+
+| Previous | Up | Next |
+|:---------|:---:|-----:|
+| [Installing the Software You'll Need](./installing_tools.md) | [Environment Set-up](./environment_overview.md) | [Setting up GitHub](./github_setup.md) |
